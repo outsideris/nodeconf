@@ -4,14 +4,19 @@
     <title>Node.js Korea Conference 2012</title>
     <meta name="description" content="nodeconf.kr" />
     <meta name="keywords" content="nodejs, nodeconf.kr" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Play" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css" />
+    <link type="image/x-icon" rel="shortcut icon" href="./images/favicon.ico">
 </head>
-<body>
+<body class="container">
     <img id="background" src="./images/nodejs-1024x768.jpg" alt="">
-    <section>
+    <section class="pull-right">
         <h1>Node.js<span class="part">Korea</span>Conference<span class="small"> is comming...</span></h1>
         <time>2012.11.20</time>
+        <time id="countdown"></time>
         <aside>
             <span>
                 대한민국에서 드디어 <a href="http://nodejs.org/" target="_blank">Node.js</a> 컨퍼런스가 열립니다.
@@ -33,5 +38,11 @@
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();</script>
+
+    <script src="http://nodeqa.com:9040/socket.io/socket.io.js"></script>
+    <script>
+      var s = io.connect('http://nodeqa.com:9040');
+      s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });
+    </script>
 </body>
 </html>

@@ -876,11 +876,13 @@
     font-size: 23px !important;
   }
   section h1 span.small {
-    font-size: 0.5em !important;
     display: block;
   }
   aside {
     width: 290px !important;
+  }
+  aside span {
+    font-size: 10pt;
   }
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
@@ -923,6 +925,24 @@
   }
 }
 
+@media (min-width: 480px) and (max-width: 640px) {
+  section {
+    right: 5px !important;
+    top: 10px !important;
+  }
+  section h1 {
+    font-size: 2.5em !important;
+  }
+  section h1 span.small {
+    display: block;
+  }
+  aside {
+    width: 350px !important;
+  }
+  aside span {
+    font-size: 10pt;
+  }
+}
 @media (max-width: 979px) {
   body {
     padding-top: 0;
