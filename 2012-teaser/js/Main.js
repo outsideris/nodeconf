@@ -46,9 +46,9 @@ function init() {
 	document.onmousemove = onDocumentMouseMove;
 	document.ondblclick = onDocumentDoubleClick;
 
-	//document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-	//document.addEventListener( 'touchmove', onDocumentTouchMove, false );
-	//document.addEventListener( 'touchend', onDocumentTouchEnd, false );
+	document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+	document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+	document.addEventListener( 'touchend', onDocumentTouchEnd, false );
 
 	window.addEventListener( 'deviceorientation', onWindowDeviceOrientation, false );
 
