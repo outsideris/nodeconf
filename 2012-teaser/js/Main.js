@@ -248,7 +248,7 @@ function createBall( x, y ) {
 	var x = x || Math.random() * stage[2];
 	var y = y || Math.random() * -200;
 
-	var size = (Math.random() * 100 >> 0) + 20;
+	var size = (Math.random() * 70 >> 0) + 10;
 
 	var element = document.createElement("canvas");
 	element.width = size;

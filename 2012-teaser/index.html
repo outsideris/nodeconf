@@ -27,6 +27,26 @@
             </span>
         </aside>
     </section>
+
+    <div id="canvas"></div>
+    <script src="js/LAB.min.js"></script>
+    <script>
+      /**
+       * main loading script
+       *
+       * @author nanhapark <nanhap@gmail.com>
+       * @date 2012
+       */
+      $LAB.setOptions({BasePath: 'js/'}).
+        script('protoclass.js').wait().
+        script('box2d.js').wait().
+        script('Main.js').
+        script('socket.io.js').wait(function() {
+          var s = io.connect('http://nodeqa.com:9040');
+          s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });
+              
+        });
+    </script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-1316180-6']);
@@ -38,16 +58,5 @@
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();</script>
-
-    <script src="http://nodeqa.com:9040/socket.io/socket.io.js"></script>
-    <script>
-      var s = io.connect('http://nodeqa.com:9040');
-      s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });
-    </script>
-
-    <div id="canvas"></div>
-    <script src="js/protoclass.js"></script>
-    <script src='js/box2d.js'></script>
-    <script src='js/Main.js'></script>
 </body>
 </html>
