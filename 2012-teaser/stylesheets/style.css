@@ -39,6 +39,14 @@ section h1 span.small {
     color: #5b5c5d;
 }
 
+section span.speaker {
+    text-align: center;
+    color: #E6E6E6;
+}
+
+section span.speaker a {
+    color: #E6E6E6;
+}
 time {
     color: #E6E6E6;
     font-size: 3.3em;
