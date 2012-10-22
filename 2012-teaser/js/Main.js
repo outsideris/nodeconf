@@ -140,10 +140,18 @@ function onDocumentDoubleClick() {
 }
 
 function onDocumentTouchStart( event ) {
+  //
+  // A Element check
+  // @nanhapark
+  //
+  isA = (event.srcElemnt || event.target).tagName.toUpperCase() == 'A' ? true : false;
 
 	if( event.touches.length == 1 ) {
 
-		event.preventDefault();
+    //
+    // ipad 에서 터치링크 될 수 있도록 제거
+    //
+		//event.preventDefault();
 
 		// Faking double click for touch devices
 
@@ -164,6 +172,12 @@ function onDocumentTouchStart( event ) {
 }
 
 function onDocumentTouchMove( event ) {
+  //
+  // A Element 에 이벤트가 발생하면
+  // 공 생성을 중지한다.
+  // @nanhapark
+  //
+  if (isA) isA = false;
 
 	if ( event.touches.length == 1 ) {
 
@@ -177,6 +191,12 @@ function onDocumentTouchMove( event ) {
 }
 
 function onDocumentTouchEnd( event ) {
+  //
+  // A Element 에 이벤트가 발생하면
+  // 공 생성을 중지한다.
+  // @nanhapark
+  //
+  if (isA) isA = false;
 
 	if ( event.touches.length == 0 ) {
 
