@@ -26,6 +26,11 @@ var createMode = false;
 var destroyMode = false;
 
 var isMouseDown = false;
+//
+// A Element check flag
+// @nanhapark
+//
+var isA = false;
 var mouseJoint;
 var mouse = { x: 0, y: 0 };
 var gravity = { x: 0, y: 1 };
@@ -64,7 +69,6 @@ function init() {
 	reset();
 }
 
-
 function play() {
 
 	setInterval( loop, 1000 / 40 );
@@ -101,13 +105,24 @@ function reset() {
 
 //
 
-function onDocumentMouseDown() {
+function onDocumentMouseDown(event) {
+  //
+  // A Element check
+  // @nanhapark
+  //
+  isA = (event.srcElemnt || event.target).tagName.toUpperCase() == 'A' ? true : false;
 
 	isMouseDown = true;
 	return false;
 }
 
 function onDocumentMouseUp() {
+  //
+  // A Element 에 이벤트가 발생하면
+  // 공 생성을 중지한다.
+  // @nanhapark
+  //
+  if (isA) isA = false;
 
 	isMouseDown = false;
 	return false;
@@ -297,6 +312,12 @@ function createBall( x, y ) {
 //
 
 function loop() {
+  //
+  // A Element 에 이벤트가 발생하면
+  // 공 생성을 중지한다.
+  // @nanhapark
+  //
+  if (isA) return false;
 
 	if (getBrowserDimensions()) {
 
@@ -318,8 +339,15 @@ function loop() {
 		var body = bodies[i];
 		var element = elements[i];
 
-		element.style.left = (body.m_position0.x - (element.width >> 1)) + 'px';
-		element.style.top = (body.m_position0.y - (element.height >> 1)) + 'px';
+    //
+    // click event 를 모두 막고 있다.
+    // click 시에 해당 포인트부분에서 공이
+    // 발생하여 click 을 막아버린다.
+    // @nanhapark
+    //
+    var tick = isA ? 50 : 0;
+		element.style.left = (body.m_position0.x + tick - (element.width >> 1)) + 'px';
+		element.style.top = (body.m_position0.y + tick - (element.height >> 1)) + 'px';
 
 		if (element.tagName == 'DIV') {
 
