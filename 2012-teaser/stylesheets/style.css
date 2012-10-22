@@ -73,3 +73,14 @@ img#background {
   font-size: 20px;
   display: block;
 }
+
+/*----------------------
+  firefox 에서
+  공이 떨어질 때
+  스크롤바 생기는 현상
+  제거
+  @nanhapark
+----------------------*/
+html {
+  overflow: hidden;
+}
