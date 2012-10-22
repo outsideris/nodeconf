@@ -40,6 +40,26 @@
     <div id="canvas"></div>
     <script src="js/LAB.min.js"></script>
     <script>
+      var device = {
+        detect: function(key) {
+          if(this['_'+key] === undefined) {
+            this['_'+key] = navigator.userAgent.match(new RegExp(key, 'i'));
+          }
+          return this['_'+key];
+        },
+        iDevice: function() {
+          return this.detect('iPhone') || this.detect('iPod');
+        },
+        android: function() {
+          return this.detect('Android');
+        },
+        webOS: function() {
+          return this.detect('webOS');
+        },
+        mobile: function() {
+          return this.iDevice() || this.android() || this.webOS();
+        }
+      };
       /**
        * main loading script
        *
@@ -49,7 +69,11 @@
       $LAB.setOptions({BasePath: 'js/'}).
         script('protoclass.js').wait().
         script('box2d.js').wait().
-        script('Main.js?20121021').
+        script(function() {
+          if (device.mobile() == null ) {
+            return 'Main.js?20121021001';
+          }
+        }).
         script('socket.io.js').wait(function() {
           var s = io.connect('http://nodeqa.com:9040');
           s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });

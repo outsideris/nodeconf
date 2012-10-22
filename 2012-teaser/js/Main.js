@@ -98,7 +98,7 @@ function reset() {
 
 	//createInstructions();
 
-	for( i = 0; i < 5; i++ ) {
+	for( i = 0; i < 15; i++ ) {
 		createBall();
 	}
 }
