@@ -98,7 +98,7 @@ function reset() {
 
 	//createInstructions();
 
-	for( i = 0; i < 5; i++ ) {
+	for( i = 0; i < 15; i++ ) {
 		createBall();
 	}
 }
@@ -254,7 +254,7 @@ function createInstructions() {
 	b2body.userData = {element: element};
 
 	b2body.position.Set( Math.random() * stage[2], Math.random() * -200 );
-	b2body.linearVelocity.Set( Math.random() * 400 - 200, Math.random() * 400 - 200 );
+	b2body.linearVelocity.Set( Math.random() * 400 - 100, Math.random() * 400 - 100 );
 	bodies.push( world.CreateBody(b2body) );	
 }
 
@@ -263,7 +263,7 @@ function createBall( x, y ) {
 	var x = x || Math.random() * stage[2];
 	var y = y || Math.random() * -200;
 
-	var size = (Math.random() * 70 >> 0) + 10;
+	var size = (Math.random() * 90 >> 0) + 10;
 
 	var element = document.createElement("canvas");
 	element.width = size;
