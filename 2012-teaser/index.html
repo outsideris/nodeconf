@@ -48,7 +48,8 @@
           return this['_'+key];
         },
         iDevice: function() {
-          return this.detect('iPhone') || this.detect('iPod');
+          //return this.detect('iPhone') || this.detect('iPod');
+          return this.detect('iPhone');
         },
         android: function() {
           return this.detect('Android');
