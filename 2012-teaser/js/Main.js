@@ -1,3 +1,6 @@
+// this ball pool script is taken from mrdoob
+// http://mrdoob.com/projects/chromeexperiments/ball-pool/
+
 var canvas;
 
 var delta = [ 0, 0 ];
