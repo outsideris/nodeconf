@@ -72,6 +72,13 @@
        * @date 2012
        */
       $LAB.setOptions({BasePath: 'js/'}).
+        script('protoclass.js').wait().
+        script('box2d.js').wait().
+        script(function() {
+          if (device.mobile() == null ) {
+            return 'Main.js?20121021002';
+          }
+        }).
         script('socket.io.js').wait(function() {
           var s = io.connect('http://nodeqa.com:9040');
           s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });
