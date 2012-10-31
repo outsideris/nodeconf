@@ -50,6 +50,12 @@ textarea {
     resize: vertical;
 }
 
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
@@ -171,8 +177,20 @@ nav a:hover {
     border-bottom: 2px dotted #e4e4e4;
   }
 
+  .speaker .profile {
+    width: 180px;
+    height: 180px;
+  }
 
+  .speaker .list ul li {
+    float: left;
+    margin: 12.5px;
+  }
 
+  .speaker .list ul li img {
+    width: 80px;
+    height: 80px;
+  }
 
 /* ==========================================================================
    Media Queries
@@ -205,12 +223,40 @@ nav a:hover {
 
   .snsbar {
     background: rgba(255, 255, 255, .4) !important;
-    margin: 20px;
+    margin: 20px auto;
     padding: 15px;
+    width: 300px;
   }
 
   .location .map {
     text-align: center;
+  }
+
+    /*--------------------------------------
+   * schedule
+   * ------------------------------------*/
+  .schedule li {
+    width: 300px;
+    display: table;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #8EC63F;
+  }
+
+  .schedule p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .schedule .time {
+    width: 100px;
+    background: #C3DE9A;
+    padding: 5px 0;
+  }
+
+  .schedule .info {
+    width: 200px;
+    color: #fff;
   }
 }
 
@@ -276,16 +322,18 @@ nav a:hover {
     background-color: #8FC740;
     display: block;
   }
-    nav a {
-        display: inline;
-        margin-bottom: 10px;
 
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
+  nav a {
+      display: inline;
+      margin-bottom: 10px;
 
-        color: white;
-    }
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+
+      color: white;
+  }
+
   .main {
     margin-left: 20px;
     margin-right: 20px;
@@ -302,6 +350,57 @@ nav a:hover {
     background: rgba(255, 255, 255, .4) !important;
     margin-top: 140px !important;
   }
+
+  /*--------------------------------------
+   * speaker
+   * ------------------------------------*/
+  .speaker .info {
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .speaker .profile-wrap {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .speaker .list ul {
+    overflow: hidden;
+  }
+
+  /*--------------------------------------
+   * schedule
+   * ------------------------------------*/
+  .schedule li {
+    width: 420px;
+  }
+
+  .schedule .time {
+    width: 150px;
+  }
+
+  .schedule .info {
+    width: 270px;
+  }
+
+  /*--------------------------------------
+   * location
+   * ------------------------------------*/
+  .location {
+    overflow: hidden;
+  }
+
+  .location .address {
+    float: left;
+    width: 160px;
+    position: relative;
+    top: 28px;
+  }
+
+  .location .map {
+    float: right;
+  }
+
   .logo {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -385,21 +484,6 @@ nav a:hover {
 
     .oldie nav a {
         margin: 0 0.7%;
-    }
-
-    .location {
-      overflow: hidden;
-    }
-
-    .location .address {
-      float: left;
-      width: 160px;
-      position: relative;
-      top: 28px;
-    }
-
-    .location .map {
-      float: right;
     }
 }
 
