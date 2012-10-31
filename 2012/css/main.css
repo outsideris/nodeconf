@@ -173,6 +173,26 @@ nav a:hover {
 @media only screen and (min-width: 18.75em){
   body {
   }
+  .sidebar {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-shiv {
+    display: block;
+  }
+  .about {
+    background: rgba(255, 255, 255, .4) !important;
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+  }
+  .snsbar {
+    background: rgba(255, 255, 255, .4) !important;
+    margin: 20px;
+    padding: 15px;
+  }
 }
 
 
@@ -192,6 +212,152 @@ nav a:hover {
 @media screen and (min-width: 68.75em){
   body {
   }
+}
+@media only screen and (min-width: 480px) {
+  body {
+    /*background-color: red;*/
+  }
+
+  .container::before {
+    top: -100px;
+    border-bottom: 100px solid white;
+    border-left: 367px solid transparent;
+    border-right: 377px solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0px;
+    opacity: 0.4 !important;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+    height: 1000px;
+    background: rgba(255, 255, 255, .4);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+  }
+
+  .container:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -100px;
+    border-top: 100px solid #fff;
+    border-left: 367px solid transparent;
+    border-right: 375px solid transparent;
+    opacity: 0.4 !important;
+  }
+  .sidebar {
+    width: 740px;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    background-color: #8FC740;
+    display: block;
+  }
+    nav a {
+        display: inline;
+        margin-bottom: 10px;
+
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+
+        color: white;
+    }
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 420px;
+    margin-top: 75px;
+  }
+  .about {
+    background: rgba(255, 255, 255, .4) !important;
+    margin-top: 140px !important;
+    padding: 0px !important;
+    width: 420px;
+  }
+  .logo {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 420px !important;
+    position: absolute;
+    left: 157px;
+    top: -30px;
+    display: block;
+  }
+  .logo-shiv {
+    display: none;
+  }
+  /*--------------------------------------
+   * sns bar
+   * ------------------------------------*/
+  .snsbar::before {
+    border-bottom: 113px solid #d9d9d9;
+    border-left: 206px solid transparent;
+    border-right: 0px solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: -113px;
+    width: 0px;
+  }
+  .snsbar {
+    width: 205px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 330px;
+    background-color: #d9d9d9 !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  .snsbar::after {
+    border-top: 113px solid #d9d9d9;
+    border-left: 206px solid transparent;
+    border-right: 0px solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    bottom: -113px;
+    width: 0px;
+  }
+    .snsbar .contents {
+      padding: 0 10px;
+    }
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        width: 27%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
 }
 
 /* desktop */
@@ -238,8 +404,12 @@ nav a:hover {
     margin-right: auto !important;
     width: 420px !important;
     position: absolute;
-    left: 287px;
-    top: -40px;
+    left: 287px !important;
+    top: -40px !important;
+    display: block !important;
+  }
+  .logo-shiv {
+    display: none;
   }
   .main {
     padding-top: 100px;
@@ -268,6 +438,7 @@ nav a:hover {
     left: 0 !important;
     top: 96px !important;
     background-color: #8FC740 !important;
+    display: block;
   }
   .sidebar::after {
     border-top: 98px solid #8FC740;
@@ -312,13 +483,14 @@ nav a:hover {
     top: -140px !important;
     width: 0px !important;
   }
-
   .snsbar {
     width: 270px !important;
     position: absolute !important;
     right: 0 !important;
     top: 140px !important;
     background-color: #d9d9d9 !important;
+    margin: 0px !important;
+    padding: 0px !important;
   }
   .snsbar::after {
     border-top: 140px solid #d9d9d9 !important;
@@ -330,136 +502,16 @@ nav a:hover {
     bottom: -140px !important;
     width: 0px !important;
   }
-}
 
-
-@media only screen and (min-width: 480px) {
-
-  .container::before {
-    top: -100px;
-    border-bottom: 100px solid white;
-    border-left: 367px solid transparent;
-    border-right: 377px solid transparent;
-    content: " ";
-    height: 0;
-    position: absolute;
-    width: 0px;
-    opacity: 0.4 !important;
-  }
-
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 740px;
-    height: 1000px;
-    background: rgba(255, 255, 255, .4);
-    margin-top: 150px;
-    margin-bottom: 150px;
-    position: relative;
-  }
-
-  .container:after {
-    content: "";
-    width: 0;
-    position: absolute;
-    bottom: -100px;
-    border-top: 100px solid #fff;
-    border-left: 367px solid transparent;
-    border-right: 375px solid transparent;
-    opacity: 0.4 !important;
-  }
-  .sidebar {
-    width: 740px;
-    padding: 10px 0;
-    text-align: center;
-    position: absolute;
-    top: 135px;
-    background-color: #8FC740;
-  }
-    nav a {
-        display: inline;
-        margin-bottom: 10px;
-
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-
-        color: white;
-    }
-  .main {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 420px;
-    margin-top: 75px;
-  }
-  .logo {
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .about {
+    background: transparent !important;
+    margin: 0px !important;
+    padding: 0px !important;
     width: 420px !important;
   }
-  /*--------------------------------------
-   * sns bar
-   * ------------------------------------*/
-  .snsbar::before {
-    border-bottom: 113px solid #77787B;
-    border-left: 206px solid transparent;
-    border-right: 0px solid transparent;
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: -113px;
-    width: 0px;
-  }
-  .snsbar {
-    width: 205px;
-    height: 500px;
-    position: absolute;
-    right: 0;
-    top: 330px;
-    background-color: #77787B;
-  }
-  .snsbar::after {
-    border-top: 113px solid #77787B;
-    border-left: 206px solid transparent;
-    border-right: 0px solid transparent;
-    content: " ";
-    height: 0;
-    position: absolute;
-    bottom: -113px;
-    width: 0px;
-  }
-    .snsbar .contents {
-      padding: 0 10px;
-    }
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        width: 27%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
 }
+
+
 
 
 
