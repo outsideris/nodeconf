@@ -8,8 +8,7 @@
  */
 
 .tweet {
-  font: 13px/14px 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
-  letter-spacing: -1px;
+  font: 13px/16px '돋움', Play, Helvetica, Helvetica Neue, Arial;
 }
 .jta-tweet-list
 {

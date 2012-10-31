@@ -380,7 +380,7 @@ nav a:hover {
   .container {
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 1000px !important;
+    width: 980px !important;
     background: rgba(255, 255, 255, .4) !important;
     margin-top: 130px !important;
     margin-bottom: 130px !important;
@@ -422,9 +422,9 @@ nav a:hover {
    * sidebar
    * ------------------------------------*/
   .sidebar::before {
-    border-bottom: 98px solid #8FC740 !important;
+    border-bottom: 96px solid #8FC740 !important;
     border-left: 0px solid transparent !important;
-    border-right: 201px solid transparent !important;
+    border-right: 200px solid transparent !important;
     content: " ";
     height: 0;
     position: absolute !important;
@@ -441,7 +441,7 @@ nav a:hover {
     text-align: left;
   }
   .sidebar::after {
-    border-top: 98px solid #8FC740;
+    border-top: 96px solid #8FC740;
     border-left: 0px solid transparent;
     border-right: 201px solid transparent;
     content: " ";
@@ -475,7 +475,7 @@ nav a:hover {
    * ------------------------------------*/
   .snsbar::before {
     border-bottom: 140px solid #d9d9d9 !important;
-    border-left: 270px solid transparent !important;
+    border-left: 250px solid transparent !important;
     border-right: 0px solid transparent !important;
     content: " " !important;
     height: 0 !important;
@@ -484,7 +484,7 @@ nav a:hover {
     width: 0px !important;
   }
   .snsbar {
-    width: 270px !important;
+    width: 250px !important;
     position: absolute !important;
     right: 0 !important;
     top: 140px !important;
@@ -494,7 +494,7 @@ nav a:hover {
   }
   .snsbar::after {
     border-top: 140px solid #d9d9d9 !important;
-    border-left: 270px solid transparent !important;
+    border-left: 250px solid transparent !important;
     border-right: 0px solid transparent !important;
     content: " " !important;
     height: 0 !important;
