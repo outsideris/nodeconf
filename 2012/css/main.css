@@ -158,9 +158,18 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+  .main article h2 {
+    border-bottom: 2px solid #8FC740;
+  }
 
+  .snsbar .jta-tweet-user-screen-name-link,
+  .snsbar .jta-tweet-a, .twitter-anywhere-user {
+    color: #8EC63F;
+  }
 
-
+  .snsbar .jta-tweet-list-item {
+    border-bottom: 2px dotted #e4e4e4;
+  }
 
 
 
@@ -183,16 +192,25 @@ nav a:hover {
   .logo-shiv {
     display: block;
   }
+
+  article {
+    width: 300px;
+    padding: 15px;
+    margin: 20px auto;
+  }
+
   .about {
     background: rgba(255, 255, 255, .4) !important;
-    margin: 20px;
-    padding: 15px;
-    width: 300px;
   }
+
   .snsbar {
     background: rgba(255, 255, 255, .4) !important;
     margin: 20px;
     padding: 15px;
+  }
+
+  .location .map {
+    text-align: center;
   }
 }
 
@@ -232,12 +250,10 @@ nav a:hover {
   }
 
   .container {
-    margin-left: auto;
-    margin-right: auto;
     width: 740px;
     background: rgba(255, 255, 255, .4);
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin: 150px auto;
+    padding-bottom: 105px;
     position: relative;
   }
 
@@ -276,11 +292,15 @@ nav a:hover {
     width: 420px;
     margin-top: 75px;
   }
+
+  article {
+    width: 420px;
+    padding: 0px !important;
+  }
+
   .about {
     background: rgba(255, 255, 255, .4) !important;
     margin-top: 140px !important;
-    padding: 0px !important;
-    width: 420px;
   }
   .logo {
     margin-left: auto !important;
@@ -327,9 +347,11 @@ nav a:hover {
     bottom: -113px;
     width: 0px;
   }
-    .snsbar .contents {
-      padding: 0 10px;
-    }
+
+  .snsbar .contents {
+    padding: 0 10px;
+  }
+
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
@@ -337,6 +359,12 @@ nav a:hover {
     nav a {
         width: 27%;
         margin-bottom: 0;
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+    }
+
+    nav a:last-child {
+      border-right: none;
     }
 
     nav li:first-child a {
@@ -357,6 +385,21 @@ nav a:hover {
 
     .oldie nav a {
         margin: 0 0.7%;
+    }
+
+    .location {
+      overflow: hidden;
+    }
+
+    .location .address {
+      float: left;
+      width: 160px;
+      position: relative;
+      top: 28px;
+    }
+
+    .location .map {
+      float: right;
     }
 }
 
@@ -454,15 +497,20 @@ nav a:hover {
       margin-left: 50px;
     }
     nav a {
-      
+        width: 50%;
         display: block !important;
-        margin-bottom: 10px;
+        padding: 5px 2px;
 
         text-align: center;
         text-decoration: none;
         font-weight: bold;
 
         color: white;
+        border: none;
+        border-bottom: 2px dotted #fff;
+    }
+     nav a:last-child {
+        border-bottom: none;
     }
     .sidebar ol {
       display: block;
