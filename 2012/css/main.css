@@ -439,6 +439,7 @@ nav a:hover {
     top: 96px !important;
     background-color: #8FC740 !important;
     display: block;
+    text-align: left;
   }
   .sidebar::after {
     border-top: 98px solid #8FC740;
