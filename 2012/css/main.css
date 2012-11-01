@@ -26,13 +26,23 @@ speaker link
 .speaker a:active  {text-decoration:none; color:#8EA5D1 }
 .speaker a:hover   {text-decoration:underline; color:#476E1D }
 
+/*-----------------------------------------------
+footer link
+------------------------------------------------*/
+footer a:link    {text-decoration:none; color:#429940 }
+footer a:visited {text-decoration:none; color:#429940 }
+footer a:active  {text-decoration:none; color:#429940 }
+footer a:hover   {text-decoration:underline; color:#476E1D }
+
 ::-moz-selection {
-    background: #b3d4fc;
+    color: #fff;
+    background: #476E1D;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    color: #fff;
+    background: #429940;
     text-shadow: none;
 }
 
@@ -249,23 +259,6 @@ link
 	-moz-transition: color .6s linear;
 	-webkit-transition: color .6s linear;
 }
-/*-----------------------------------------------
-selection
-------------------------------------------------*/
-::-moz-selection{
-	background:#cc0000;
-	color:#fff;
-}
-::selection {
-	background:#cc0000;
-	color:#fff;
-}
-code::-moz-selection {
-	background: #333333;
-}
-code::selection {
-	background: #333333;
-}
 :focus {
 	outline: 0;
 }
@@ -467,7 +460,6 @@ code::selection {
     width: 740px;
     background: rgba(255, 255, 255, .4);
     margin: 150px auto;
-    padding-bottom: 105px;
     position: relative;
   }
 
@@ -601,7 +593,7 @@ code::selection {
   }
   .snsbar {
     width: 250px;
-    height: 1350px;
+    height: 80%;
     position: absolute;
     right: 0;
     top: 300px;

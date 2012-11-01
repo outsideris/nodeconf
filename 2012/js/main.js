@@ -4,7 +4,7 @@ $(function() {
   //
   $('#tweetFeed').jTweetsAnywhere({
     searchParams: ['q=PlayNode', 'q=playnode'],
-    count: 10,
+    count: 15,
     showTweetFeed: {
       autorefresh: {
         mode: 'trigger-insert',
