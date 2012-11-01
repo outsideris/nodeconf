@@ -82,14 +82,14 @@ $(function() {
       "twitter": "acidsound",
       "company" : "Appsoulute",
       "session": "Meteor로 만들어보는 Modern Web Application",
-      "contents": "십여 년간 여러 분야의 SI 일을 하다가 node.js를 비롯한 Javascript에 대한 열망이 커져 아예 앱소울루트(Appsoulute)라는 회사를 만들고 관련 일들을 시작했습니다. 예전과는 달리 직접 발로 뛰면서 고객과 만나 함께 목표를 만들면서 일하는 수평적 관계와 빠른 프로토타이핑을 통한 소통에 매력을 느낍니다. 창업 후 개발에 시장 조사에 강연에 멘토링도 하는 바쁜 날들을 보내고 있습니다."
+      "contents": "십여 년간 여러 분야의 SI 일을 하다가 node.js를 비롯한 Javascript에 대한 열망이 커져 아예 앱소울루트(Appsoulute)라는 회사를 만들고 관련 일들을 시작했습니다. ...."
     },
     "f": {
       "name": "홍영택",
       "twitter": "susukang98",
       "company" : "사이냅소프트",
       "session": "Operational Transform in Node.js",
-      "contents": "직장인이 아닌 해커가 되고 싶은 개발자입니다. 지금까지 주로 클라우드 오피스 관련 개발을 하고 있으나 다양한 분야에 가치 있는 소프트웨어를 만들고 싶어 합니다. 훌륭한 동료들과 같이 개발한 서비스는 네이버 오피스가 있습니다. 현재는 사이냅소프트에서 일하고 있습니다."
+      "contents": "직장인이 아닌 해커가 되고 싶은 개발자입니다. 지금까지 주로 클라우드 오피스 관련 개발을 하고 있으나 다양한 분야에 가치 있는 소프트웨어를 만들고 싶어 합니다."
     },
     "g": {
       "name": "배성준",
