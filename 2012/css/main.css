@@ -158,6 +158,64 @@ nav a:hover {
 /* ==========================================================================
    Author's 공통 custom styles
    ========================================================================== */
+/*-----------------------------------------------
+speaker
+------------------------------------------------*/
+.speaker .zoom-container {
+    height: 250px;
+}
+  .speaker .zoom-container .zoom {
+    width: 200px;
+    padding: 3px;
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    float: left;
+  }
+  .speaker .zoom-container .zoom-contents {
+    width: 200px;
+    margin-left: 5px;
+    float: left;
+    font: 15px/16px 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
+    overflow: hidden;
+  }
+ul.work-items {
+  overflow: hidden;
+  padding: 0px !important;
+  clear: both;
+}
+ol, ul {
+list-style: none;
+}
+ul.work-items li {
+padding: 3px !important;
+background: white;
+margin: 0 20px 20px 0;
+list-style: none;
+float: left;
+width: 72px;
+border: 1px solid #DDD;
+border-radius: 3px;
+}
+ul.work-items li:hover{
+  background:#e9573f;
+  border:1px solid #e9573f;
+  transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+}
+ul li {
+list-style: disc inside;
+line-height: 1.5em;
+}
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+ul.work-items li.last {
+/*margin-right: 0px;*/
+}
+
 h2.rollup {
   position: relative;
 }
@@ -278,7 +336,17 @@ code::selection {
   .logo-shiv, sponsor-shiv {
     display: block;
   }
-
+  .speaker .zoom-container {
+      height: 250px;
+  }
+    .speaker .zoom-container .zoom {
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .speaker .zoom-container .zoom-contents {
+      width: 300px;
+    }
   .sponsor {
     display: none;
   }
