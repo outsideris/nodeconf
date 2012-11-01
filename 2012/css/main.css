@@ -182,9 +182,11 @@ speaker
 ------------------------------------------------*/
 .speaker .zoom-container {
     height: 250px;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
   .speaker .zoom-container .zoom {
-    width: 200px !important;
+    width: 190px !important;
     padding: 3px;
     background: white;
     border: 1px solid #DDD;
@@ -194,7 +196,7 @@ speaker
   .speaker .zoom-container .zoom-contents {
     width: 200px !important;
     margin-left: 5px;
-    float: left;
+    float: right;
     font: 14px/20px '돋움', 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
     overflow: hidden;
   }
@@ -362,8 +364,14 @@ link
     width: 300px;
   }
 
+  .location .address {
+    float: none;
+    width: 100%;
+  }
+
   .location .map {
     text-align: center;
+    float: none;
   }
 
   /*--------------------------------------
@@ -593,7 +601,7 @@ link
   }
   .snsbar {
     width: 250px;
-    height: 80%;
+    height: 81.9%;
     position: absolute;
     right: 0;
     top: 300px;
@@ -712,6 +720,10 @@ link
     width: 420px !important;
   }
 
+  .main article {
+    margin-left: -25px !important;
+  }
+
 
   /*--------------------------------------
    * sidebar
@@ -765,7 +777,7 @@ link
     top: 420px !important;
     background-color: #EAEAEA !important;
     display: block;
-    height: 60% !important;
+    height: 74.8% !important;
     margin: 0 !important;
   }
   .sponsor::after {
@@ -836,6 +848,7 @@ link
     width: 250px !important;
     position: absolute !important;
     right: 0 !important;
+    height: 86.8%;
     top: 140px !important;
     background-color: #E6E6E6 !important;
     margin: 0px !important;
