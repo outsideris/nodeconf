@@ -181,24 +181,17 @@ img.center { display: block; margin-left: auto; margin-right: auto; }
 speaker
 ------------------------------------------------*/
 .speaker .zoom-container {
-    height: 250px;
     margin-bottom: 20px;
-    overflow: hidden;
+    font: 14px/20px '돋움', 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
 }
-  .speaker .zoom-container .zoom {
+  .speaker .zoom-container img {
     width: 190px !important;
-    padding: 3px;
+    padding: 5px;
     background: white;
     border: 1px solid #DDD;
     border-radius: 3px;
     float: left;
-  }
-  .speaker .zoom-container .zoom-contents {
-    width: 200px !important;
-    margin-left: 5px;
-    float: right;
-    font: 14px/20px '돋움', 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
-    overflow: hidden;
+    margin: 0 5px 5px 0;
   }
 ul.work-items {
   overflow: hidden;
@@ -354,16 +347,8 @@ link
     display: block;
   }
   .speaker .zoom-container {
-      height: 250px !important;
-  }
-    .speaker .zoom-container .zoom {
       width: 300px;
-      margin-left: 50px;
-      margin-bottom: 10px;
-    }
-    .speaker .zoom-container .zoom-contents {
-      width: 300px !important;
-    }
+  }
   .sponsor {
     display: none;
   }
@@ -469,25 +454,6 @@ link
   }
 }
 
-
-/*styles for 480px - 620px @ 16px!*/
-@media only screen and (min-width: 30em) and (max-width: 38.75em) {
-  body {
-  }
-}
-
-/*styles for 801px and up @ 16px!*/
-@media screen and (min-width: 50em){
-  body {
-  }
-}
-
-/*styles for 1100px and up @ 16px!*/
-@media screen and (min-width: 68.75em){
-  body {
-  }
-}
-
 /* ---------------------------------
   ipad 
   ---------------------------------*/
@@ -545,16 +511,8 @@ link
         color: white;
     }
   .speaker .zoom-container {
-      height: 250px !important;
       width: 420px !important;
   }
-    .speaker .zoom-container .zoom {
-      width: 200px;
-      margin: 0px !important;
-    }
-    .speaker .zoom-container .zoom-contents {
-      width: 200px !important;
-    }
 
    /*--------------------------------------
    * schedule

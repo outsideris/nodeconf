@@ -54,21 +54,21 @@ $(function() {
       "twitter": "nanhapark",
       "company" : "KTH",
       "session": "Node.js In Production",
-      "contents": "저는 지루한 삶을 싫어합니다. 항상 새로운 것을 찾아다닙니다. 그래서 내 몸은 항상 피곤하고, 남들에게 눈총을 사기도 합니다. 하지만, 이런 삶이 즐겁습니다. 앞으로 평생 개발자가 되어 후배들에게 정보를 공유하고 싶은 박난하 입니다."
+      "contents": "Production 레벨에서 Node.js 를 사용함에 있어서 logging 부터 SSL까지 약 20가지의 필수적으로 코딩해야만 하는 핵심적인 부분에 대해서 알려드립니다. 이 부분을 알고 나시면 여러분은 고수 ps. 20가지중 realtime 부분에서 100 바이트도 안되는 socket.io tiny-prototyping 사용하여 간단한 장난감부터 Production Level (KTH에서 작업한 UCloud VM 자동생성, 자동설치) 에 적용하기까지의 단계를 설명합니다"
     },
     "b": {
       "name": "백정상",
       "twitter": "jeongsangbaek",
       "company" : "블루윈드",
       "session": "소셜게임 서버 개발 관점에서 본 node.js의 장/단점 과 대안",
-      "contents": "재미있는 게임을 좋아하고 재미있는 게임 만드는 것을 좋아하는 긍정의 아이콘! 입니다. 주로 MMORPG와 캐주얼 게임 네트워크 플랫폼을 개발해왔으며, 현재는 블루윈드에서 스마트폰 게임을 개발하고 있습니다."
+      "contents": "소셜 게임 서버 플랫폼으로 node.js 를 선택한 이유와 개발 방법에 대해 소개합니다. 이어서 개발하면서 느꼈던 node.js의 장점과 단점에 대해 설명하고, 단점을 보완하기 위한 대안을 제시합니다."
     },
     "c": {
       "name": "박경욱",
       "twitter": "kyungw00k",
       "company" : "다음커뮤니케이션",
       "session": "When hardware met nodeJS",
-      "contents": "항상 재밌는 것을 찾아다니고, 실험해보는 것을 좋아합니다. 최근에는 제주로 이주해 아이가 커가는 모습을 보면서 지내고 있습니다."
+      "contents": "NodeJS와 Arduino, BeagleBone, Raspberry Pi를 연결하는 방법과 각각의 사용 경험기를 공유합니다. Just another Javascript Lover"
     },
     "d": {
       "name": "김양원",
@@ -82,28 +82,28 @@ $(function() {
       "twitter": "acidsound",
       "company" : "Appsoulute",
       "session": "Meteor로 만들어보는 Modern Web Application",
-      "contents": "십여 년간 여러 분야의 SI 일을 하다가 node.js를 비롯한 Javascript에 대한 열망이 커져 아예 앱소울루트(Appsoulute)라는 회사를 만들고 관련 일들을 시작했습니다. ...."
+      "contents": "Meteor는 올 4월 혜성같이 나타나 월말에 MIT 라이센스로 전환하고 $11.2 million (천백이십만불 한화로 치면 대략 122억) 투자라는 대박을 기록한 프레임워크입니다. Meteor 튜토리얼 세션을 통해 실시간으로 처리가 되는 SNS 어플리케이션을 만들어보면서 Meteor 특유의 Reactive, Hot code push, 최근에 Branch에서 정식 기능으로 추가된 OAuth 및 인증 모듈인 Account 패키지 등을 사용하는 경험을 공유하고자 합니다."
     },
     "f": {
       "name": "홍영택",
       "twitter": "susukang98",
       "company" : "사이냅소프트",
       "session": "Operational Transform in Node.js",
-      "contents": "직장인이 아닌 해커가 되고 싶은 개발자입니다. 지금까지 주로 클라우드 오피스 관련 개발을 하고 있으나 다양한 분야에 가치 있는 소프트웨어를 만들고 싶어 합니다."
+      "contents": "실시간 협업 에디터- 웹 오피스를 개발하며 지난 3년간은 클라이언트 측 자바스크립트만으로 충분했으나 최근 서버 측에 비즈니스로직을 구현하면서 다른 언어(Java, Javascript)로 같은 로직을 두 번 구현하는 상황이 발생 했습니다. 이를 node.js로 해결하려합니다."
     },
     "g": {
       "name": "배성준",
       "twitter": "hanguli",
       "company" : "big4games",
       "session": "모바일 게임 서버 개발을 하면서 만난 node.js",
-      "contents": "일로써 프로그래밍은 놓을 지라도 늙어 죽을 때까지 프로그래밍을 하면서 살고 싶은 꿈많은 30대 청년입니다."
+      "contents": "모바일 게임 서버 개발을 하면서 필요한 서브 프로그램을 nodejs로 하였습니다. Push 서버, Log 서버, 웹이 아닌 서버 프로그램으로 써의 노드의 장점/단점을 이야기 하려고 합니다."
     },
     "h": {
       "name": "변정훈",
       "twitter": "outsideris",
       "company" : "NBP",
       "session": "Learning Dtrace",
-      "contents": "새로운 것이나 도전적인 것을 좋아하고 항상 즐겁게 코딩을 하려고 하는 프로그래머입니다. 아는 내용을 공유하는 데도 많은 즐거움을 느껴서 블로그(http://blog.outsider.ne.kr)도 운연하고 있습니다."
+      "contents": "Node.js 애플리케이션을 디버깅하고 프로파일링하는 데 중요한 도구로 떠오른 Dtrace를 소개합니다. Dtrace의 사용방법을 익힌 뒤 OS 차원에서 Dtrace를 어떻게 사용하는지 살펴보면서 Dtrace가 할 수 있는 일을 설명하고 Dtrace를 Node.js 어플리케이션에서 어떻게 활용할 수 있는지 살펴봅니다."
     },
     "i": {
       "name": "김범진",
@@ -149,7 +149,6 @@ $(function() {
     var coll = SpeakerColl[id] || null;
     if (coll == null) { alert('not found collection'); return; }
 
-    $('#speaker .zoom img').attr('src', $t.attr('src')).hide().fadeIn();
 
     var r = Mustache.render(tpl, {
       name: coll['name'],
@@ -158,7 +157,8 @@ $(function() {
       session: coll['session'],
       contents: coll['contents']
     });
-    $('#speaker .zoom-contents').html(r).hide().fadeIn();
+    $('#speaker .zoom-container').html(r).hide().fadeIn();
+    $('#speaker .zoom-container img').attr('src', $t.attr('src')).hide().fadeIn();
     if (!initFlag) $('a[href=#speaker]').click()
     initFlag = false;
   }); 
