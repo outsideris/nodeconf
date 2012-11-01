@@ -393,7 +393,7 @@ code::selection {
 /* ipad */
 @media only screen and (min-width: 480px) {
   body {
-    background-color: red;
+    /*background-color: red;*/
   }
 
   .container::before {
@@ -500,6 +500,17 @@ code::selection {
     left: 157px;
     top: -30px;
     display: block;
+    transition: 0.3s ease;
+    -moz-transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    transform-origin: 43% 44%;
+    -moz-transform-origin: 43% 44%;
+    -webkit-transform-origin: 43% 44%;
+  }
+  .logo:hover {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
   .logo-shiv, .sponsor-shiv {
     display: none;
