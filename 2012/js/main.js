@@ -122,9 +122,23 @@ $(function() {
     "aa": {
       "name": "Isaac Z. Schlueter",
       "twitter": "izs",
-      "company" : "??",
+      "company" : "Joyent",
       "session": "Keynote",
-      "contents": "Manager node.jsManager node.jsManager node.jManager node.jManager node.jManager node.jManager node.jManager node.jManager node.jManager node.js"
+      "contents": "Node.js를 만든 <a href='https://twitter.com/ryah' target='_blank'>Ryan Dahl</a>에게서 프로젝트를 이어받아 현재 Node.js 개발을 이끌고 있다. Node.js 프로젝트에 초창기부터 참여했으며 패키지매니저인 <a href='https://npmjs.org/' target='_blank'>npm</a>을 만들어서 현재의 수많은 서드파티 모듈들이 만들어지는 기반을 마련했다. 현재는 Node.js의 공식 스폰서인 Joyent에서 풀타임 Node.js 개발자로 일하고 있다."
+    },
+    "bb": {
+      "name": "Mikeal Rogers",
+      "twitter": "mikeal",
+      "company" : "Gather",
+      "session": "",
+      "contents": "Mozilla, CouchOne, Yammer를 거쳐 현재는 <a href='https://gather.at' target='_blank'>Gather</a>라는 회사를 세워서 일하고 있다. Node.js의 소스공헌자이기도 하며 매년 <a href='http://www.nodeconf.com/' target='_blank'>nodeconf</a>를 개최해서 node.js 홍보와 기술공유에 힘쓰고 있다. 대표적인 모듈로는 HTTP 클라이언트 모듈인 <a href='https://github.com/mikeal/request' target='_blank'>request</a>가 있다."
+    },
+    "cc": {
+      "name": "Charlie Robbins",
+      "twitter": "indexzero",
+      "company" : "Nodejitsu",
+      "session": "",
+      "contents": ""
     }
   };
   $('#speaker a').click(function(e) {
