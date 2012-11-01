@@ -370,6 +370,42 @@ code::selection {
   .location .map {
     text-align: center;
   }
+
+  /*--------------------------------------
+   * schedule
+   * ------------------------------------*/
+   .schedule h3 {
+    text-align: center;
+   }
+
+   .schedule ul {
+    padding: 0;
+   }
+
+  .schedule li {
+    width: 300px;
+    display: table;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #8EC63F;
+  }
+
+  .schedule p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .schedule .time {
+    width: 100px;
+    background: #C3DE9A;
+    padding: 5px 0;
+  }
+
+  .schedule .info {
+    width: 200px;
+    color: #fff;
+  }
+
   footer {
     width: 300px;
     margin: 0 auto;
@@ -463,6 +499,22 @@ code::selection {
     .speaker .zoom-container .zoom-contents {
       width: 200px !important;
     }
+
+   /*--------------------------------------
+   * schedule
+   * ------------------------------------*/
+  .schedule li {
+    width: 420px;
+  }
+
+  .schedule .time {
+    width: 150px;
+  }
+
+  .schedule .info {
+    width: 270px;
+  }
+
   .sponsor {
     width: 740px;
     padding: 10px 0;
