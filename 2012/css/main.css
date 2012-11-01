@@ -365,6 +365,7 @@ code::selection {
     background: rgba(255, 255, 255, .4) !important;
     margin: 20px auto;
     padding: 20px;
+    width: 300px;
   }
 
   .location .map {
@@ -407,7 +408,7 @@ code::selection {
   }
 
   footer {
-    width: 300px;
+    width: 333px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 100px;
@@ -657,10 +658,10 @@ code::selection {
     /*background: #eaeaea;*/
   }
   .container::before {
-    top: -100px !important;
-    border-bottom: 100px solid #fff !important;
+    top: -120px !important;
+    border-bottom: 120px solid #fff !important;
     border-left: 498px solid transparent !important;
-    border-right: 506px solid transparent !important;
+    border-right: 484px solid transparent !important;
     content: " ";
     height: 0 !important;
     position: absolute !important;
@@ -682,10 +683,10 @@ code::selection {
     content: "" !important;
     width: 0 !important;
     position: absolute;
-    bottom: -100px !important;
-    border-top: 100px solid #fff !important;
+    bottom: -120px !important;
+    border-top: 120px solid #fff !important;
     border-left: 498px solid transparent !important;
-    border-right: 506px solid transparent !important;
+    border-right: 484px solid transparent !important;
     opacity: 0.4;
   }
 
