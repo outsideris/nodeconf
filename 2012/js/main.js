@@ -3,8 +3,7 @@ $(function() {
   // tweet
   //
   $('#tweetFeed').jTweetsAnywhere({
-    username: 'octoberskyjs',
-    searchParams: ['q=PlayNode', 'q=playnode'],
+    searchParams: ['q=PlayNode', 'q=playnode', 'q=octoberskyjs', 'q=nodeconf.kr'],
     count: 15,
     showTweetFeed: {
       autorefresh: {
