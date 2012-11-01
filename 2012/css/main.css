@@ -13,8 +13,9 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    /*background-color: #d9d9d9;*/
+    /*background-color: #E6E6E6;*/
     background-image: url(/2012/img/paper-background.jpg);
+    color: #808080;
 }
 
 ::-moz-selection {
@@ -155,22 +156,94 @@ nav a:hover {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Author's 공통 custom styles
    ========================================================================== */
+nav a {
+  font-size: 20px;
+}
+/*-----------------------------------------------
+link
+------------------------------------------------*/
+.csstransitions a:hover {
+  text-decoration:none;
+  color:#476E1D;
+}
+.csstransitions a {
+	-moz-transition: color .6s linear;
+	-webkit-transition: color .6s linear;
+}
+.csstransitions a:hover {
+	-moz-transition: color .1s linear;
+	-webkit-transition: color .1s linear;
+}
+/*-----------------------------------------------
+selection
+------------------------------------------------*/
+::-moz-selection{
+	background:#cc0000;
+	color:#fff;
+}
+::selection {
+	background:#cc0000;
+	color:#fff;
+}
+code::-moz-selection {
+	background: #333333;
+}
+code::selection {
+	background: #333333;
+}
+:focus {
+	outline: 0;
+}
 
-  .main article h2 {
-    border-bottom: 2px solid #8FC740;
+/*-------------------------
+ * main
+ *------------------------*/
+.main article h2 {
+  color: #626366;
+  border-bottom: 2px solid #8FC740;
+  letter-spacing: -2px;
+}
+
+/*-------------------------
+ * snsbar
+ *------------------------*/
+.snsbar h2 {
+  color: #626366;
+}
+.snsbar .jta-tweet-user-screen-name-link,
+.snsbar .jta-tweet-a, .twitter-anywhere-user {
+  color: #8EC63F;
+}
+
+.snsbar .jta-tweet-list-item {
+  border-bottom: 2px dotted #e4e4e4;
+}
+
+
+/*-------------------------
+ * contents
+ *------------------------*/
+.about p, .speaker p, .schedule p, .location p {
+  font: 12px/26px '돋움';
+}
+
+/*-------------------------
+ * location
+ *------------------------*/
+.location {
+  overflow: hidden;
+}
+  .location .address {
+    float: left;
+    width: 160px;
+    position: relative;
+    top: 28px;
   }
-
-  .snsbar .jta-tweet-user-screen-name-link,
-  .snsbar .jta-tweet-a, .twitter-anywhere-user {
-    color: #8EC63F;
+  .location .map {
+    float: right;
   }
-
-  .snsbar .jta-tweet-list-item {
-    border-bottom: 2px dotted #e4e4e4;
-  }
-
 
 
 
@@ -194,19 +267,19 @@ nav a:hover {
   }
 
   article {
-    width: 300px;
     padding: 15px;
     margin: 20px auto;
   }
 
-  .about {
+  .about, .speaker, .schedule, .location {
+    width: 300px !important;
     background: rgba(255, 255, 255, .4) !important;
   }
 
   .snsbar {
     background: rgba(255, 255, 255, .4) !important;
-    margin: 20px;
-    padding: 15px;
+    margin: 20px auto;
+    padding: 20px;
   }
 
   .location .map {
@@ -232,9 +305,10 @@ nav a:hover {
   body {
   }
 }
+
 @media only screen and (min-width: 480px) {
   body {
-    /*background-color: red;*/
+    background-color: red;
   }
 
   .container::before {
@@ -299,8 +373,11 @@ nav a:hover {
   }
 
   .about {
-    background: rgba(255, 255, 255, .4) !important;
     margin-top: 140px !important;
+  }
+  .about, .speaker, .schedule, .location {
+    width: 420px !important;
+    background: transparent !important;
   }
   .logo {
     margin-left: auto !important;
@@ -318,28 +395,28 @@ nav a:hover {
    * sns bar
    * ------------------------------------*/
   .snsbar::before {
-    border-bottom: 113px solid #d9d9d9;
-    border-left: 206px solid transparent;
+    top: -100px;
+    border-bottom: 100px solid #E6E6E6;
+    border-left: 250px solid transparent;
     border-right: 0px solid transparent;
     content: " ";
     height: 0;
     position: absolute;
-    top: -113px;
     width: 0px;
   }
   .snsbar {
-    width: 205px;
+    width: 250px;
     height: 1350px;
     position: absolute;
     right: 0;
-    top: 330px;
-    background-color: #d9d9d9 !important;
+    top: 300px;
+    background-color: #E6E6E6 !important;
     margin: 0px;
     padding: 0px;
   }
   .snsbar::after {
-    border-top: 113px solid #d9d9d9;
-    border-left: 206px solid transparent;
+    border-top: 113px solid #E6E6E6;
+    border-left: 250px solid transparent;
     border-right: 0px solid transparent;
     content: " ";
     height: 0;
@@ -383,24 +460,6 @@ nav a:hover {
         display: inline;
     }
 
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-
-    .location {
-      overflow: hidden;
-    }
-
-    .location .address {
-      float: left;
-      width: 160px;
-      position: relative;
-      top: 28px;
-    }
-
-    .location .map {
-      float: right;
-    }
 }
 
 /* desktop */
@@ -497,7 +556,7 @@ nav a:hover {
       margin-left: 50px;
     }
     nav a {
-        width: 50%;
+        width: 65%;
         display: block !important;
         padding: 5px 2px;
 
@@ -522,7 +581,7 @@ nav a:hover {
    * sns bar
    * ------------------------------------*/
   .snsbar::before {
-    border-bottom: 140px solid #d9d9d9 !important;
+    border-bottom: 140px solid #E6E6E6 !important;
     border-left: 250px solid transparent !important;
     border-right: 0px solid transparent !important;
     content: " " !important;
@@ -536,12 +595,12 @@ nav a:hover {
     position: absolute !important;
     right: 0 !important;
     top: 140px !important;
-    background-color: #d9d9d9 !important;
+    background-color: #E6E6E6 !important;
     margin: 0px !important;
     padding: 0px !important;
   }
   .snsbar::after {
-    border-top: 140px solid #d9d9d9 !important;
+    border-top: 140px solid #E6E6E6 !important;
     border-left: 250px solid transparent !important;
     border-right: 0px solid transparent !important;
     content: " " !important;
