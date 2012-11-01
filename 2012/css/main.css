@@ -275,10 +275,13 @@ code::selection {
   .logo {
     display: none;
   }
-  .logo-shiv {
+  .logo-shiv, sponsor-shiv {
     display: block;
   }
 
+  .sponsor {
+    display: none;
+  }
   article {
     padding: 15px;
     margin: 20px auto;
@@ -319,6 +322,7 @@ code::selection {
   }
 }
 
+/* ipad */
 @media only screen and (min-width: 480px) {
   body {
     background-color: red;
@@ -373,6 +377,23 @@ code::selection {
 
         color: white;
     }
+  .sponsor {
+    width: 740px;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+    .sponsor * {
+      display: inline;
+    }
+    .sponsor img {
+      width: 100px;
+      vertical-align: bottom;
+    }
   .main {
     margin-left: 20px;
     margin-right: 20px;
@@ -386,7 +407,7 @@ code::selection {
   }
 
   .about {
-    margin-top: 140px !important;
+    margin-top: 245px !important;
   }
   .about, .speaker, .schedule, .location {
     width: 420px !important;
@@ -401,7 +422,7 @@ code::selection {
     top: -30px;
     display: block;
   }
-  .logo-shiv {
+  .logo-shiv, .sponsor-shiv {
     display: none;
   }
   /*--------------------------------------
@@ -522,7 +543,7 @@ code::selection {
     top: -40px !important;
     display: block !important;
   }
-  .logo-shiv {
+  .logo-shiv, .sponsor-shiv {
     display: none;
   }
   .main {
@@ -565,6 +586,55 @@ code::selection {
     bottom: -96px;
     width: 0px;
   }
+  /*--------------------------------------
+   * sponsor
+   * ------------------------------------*/
+  .sponsor::before {
+    border-bottom: 96px solid #EAEAEA !important;
+    border-left: 200px solid transparent !important;
+    border-right: 0px solid transparent !important;
+    content: " ";
+    height: 0;
+    position: absolute !important;
+    top: -96px !important;
+    width: 0px !important;
+  }
+  .sponsor {
+    width: 200px !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 420px !important;
+    background-color: #EAEAEA !important;
+    display: block;
+    height: 60% !important;
+    margin: 0 !important;
+  }
+  .sponsor::after {
+    border-top: 96px solid #EAEAEA;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+    width: 0px;
+  }
+    .sponsor h2 {
+      display: block !important;
+    }
+    .sponsor img {
+      display: block !important;
+      margin-left: 20px;
+    }
+    .sponsor .contents {
+      text-align: center !important;
+    }
+    .sponsor img {
+      width: 150px;
+      padding: 10px 0 !important;
+    }
+
     nav {
       margin-left: 50px;
     }
