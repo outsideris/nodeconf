@@ -303,15 +303,7 @@ link
 .location {
   overflow: hidden;
 }
-  .location .address {
-    float: left;
-    width: 160px;
-    position: relative;
-    top: 28px;
-  }
-  .location .map {
-    float: right;
-  }
+
 
 
 
@@ -364,14 +356,8 @@ link
     width: 300px;
   }
 
-  .location .address {
-    float: none;
-    width: 100%;
-  }
-
   .location .map {
     text-align: center;
-    float: none;
   }
 
   /*--------------------------------------
@@ -655,6 +641,16 @@ link
         display: inline;
     }
 
+    .location .address {
+      float: left;
+      width: 160px;
+      position: relative;
+      top: 28px;
+    }
+    .location .map {
+      float: right;
+    }
+
   footer {
     width: 740px;
     margin: 0 auto;
@@ -871,6 +867,17 @@ link
     padding: 0px !important;
     width: 420px !important;
   }
+
+  .location .address {
+    float: left;
+    width: 160px;
+    position: relative;
+    top: 28px;
+  }
+  .location .map {
+    float: right;
+  }
+
   footer {
     width: 980px;
     margin: 0 auto;
