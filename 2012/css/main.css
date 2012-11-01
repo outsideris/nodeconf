@@ -18,6 +18,14 @@ body {
     color: #808080;
 }
 
+/*-----------------------------------------------
+speaker link
+------------------------------------------------*/
+.speaker a:link    {text-decoration:none; color:#696D69 }
+.speaker a:visited {text-decoration:none; color:#696D69 }
+.speaker a:active  {text-decoration:none; color:#8EA5D1 }
+.speaker a:hover   {text-decoration:underline; color:#476E1D }
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -177,7 +185,7 @@ speaker
     width: 200px !important;
     margin-left: 5px;
     float: left;
-    font: 15px/16px 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
+    font: 14px/20px '돋움', 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
     overflow: hidden;
   }
 ul.work-items {
@@ -206,12 +214,7 @@ ul.work-items li:hover{
   -webkit-transition:all 0.2s;
 }
 ul li {
-list-style: disc inside;
-line-height: 1.5em;
-}
-li {
-display: list-item;
-text-align: -webkit-match-parent;
+list-style: none;
 }
 ul.work-items li.last {
 /*margin-right: 0px;*/
@@ -221,14 +224,15 @@ h2.rollup {
   position: relative;
 }
 h2.rollup a {
-   position: absolute;
-   cursor: pointer;
-   right: 0;
-   top: 0;
-   /*width: 41px;
-   height: 28px;*/
-   /*background: url("/images/structure/0.3.5/rollup.png") right top no-repeat;*/
-   font-size: 11px;
+  color: #476E1D;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  /*width: 41px;
+  height: 28px;*/
+  /*background: url("/images/structure/0.3.5/rollup.png") right top no-repeat;*/
+  font-size: 11px;
 }
 nav a {
   font-size: 20px;
@@ -236,17 +240,14 @@ nav a {
 /*-----------------------------------------------
 link
 ------------------------------------------------*/
-.csstransitions a:hover {
+.sidebar a:hover {
   text-decoration:none;
   color:#476E1D;
 }
-.csstransitions a {
+.sidebar a {
+	transition: color .6s linear;
 	-moz-transition: color .6s linear;
 	-webkit-transition: color .6s linear;
-}
-.csstransitions a:hover {
-	-moz-transition: color .1s linear;
-	-webkit-transition: color .1s linear;
 }
 /*-----------------------------------------------
 selection
@@ -510,9 +511,9 @@ code::selection {
     transition: 0.3s ease;
     -moz-transition: 0.8s ease;
     -webkit-transition: 0.8s ease;
-    transform-origin: 43% 44%;
-    -moz-transform-origin: 43% 44%;
-    -webkit-transform-origin: 43% 44%;
+    transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
   }
   .logo:hover {
     transform: rotate(360deg);
