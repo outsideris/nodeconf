@@ -399,6 +399,19 @@ link
     letter-spacing: 0px;
   }
 
+  .schedule .track {
+    width: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+  }
+
+  .schedule .btrack {
+    background: #466d1d;
+  }
+
+
   .schedule .info small {
     display: block;
     font-size:14px;
@@ -511,6 +524,10 @@ link
 
   .schedule .info {
     width: 270px;
+  }
+  
+  .schedule .track {
+    width: 135px;
   }
 
   .sponsor {
