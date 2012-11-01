@@ -158,6 +158,18 @@ nav a:hover {
 /* ==========================================================================
    Author's 공통 custom styles
    ========================================================================== */
+h2.rollup {
+  position: relative;
+}
+h2.rollup a {
+   position: absolute;
+   cursor: pointer;
+   right: 0;
+   top: 0;
+   width: 41px;
+   height: 28px;
+   /*background: url("/images/structure/0.3.5/rollup.png") right top no-repeat;*/
+}
 nav a {
   font-size: 20px;
 }
