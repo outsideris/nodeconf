@@ -364,8 +364,14 @@ link
     width: 300px;
   }
 
+  .location .address {
+    float: none;
+    width: 100%;
+  }
+
   .location .map {
     text-align: center;
+    float: none;
   }
 
   /*--------------------------------------
