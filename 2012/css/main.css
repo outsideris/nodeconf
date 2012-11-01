@@ -246,6 +246,20 @@ h2.rollup a {
   /*background: url("/images/structure/0.3.5/rollup.png") right top no-repeat;*/
   font-size: 11px;
 }
+.ticket .btn {
+  display: block;
+  color: #476E1D;
+  cursor: pointer;
+  width: 400px !important;
+  height: 28px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #8FC740;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
 nav a {
   font-size: 20px;
 }
@@ -257,6 +271,16 @@ link
   color:#476E1D;
 }
 .sidebar a {
+	transition: color .6s linear;
+	-moz-transition: color .6s linear;
+	-webkit-transition: color .6s linear;
+}
+.ticket a:hover {
+  text-decoration:none;
+  color:red;
+  font-weight: bold;
+}
+.ticket a {
 	transition: color .6s linear;
 	-moz-transition: color .6s linear;
 	-webkit-transition: color .6s linear;
@@ -294,7 +318,7 @@ link
  * contents
  *------------------------*/
 .about p, .speaker p, .schedule p, .location p {
-  font: 12px/26px '돋움';
+  font: 14px/26px '돋움';
 }
 
 /*-------------------------
@@ -311,6 +335,7 @@ link
    Media Queries
    ========================================================================== */
 
+/* iphone */
 /*styles for 300 and up @ 16px!*/
 /* The max-width declaration below blocks this from ever working */
 @media only screen and (min-width: 18.75em){
@@ -344,9 +369,23 @@ link
     margin: 20px auto;
   }
 
-  .about, .speaker, .schedule, .location {
+  .about, .speaker, .schedule, .ticket, .location {
     width: 300px !important;
     background: rgba(255, 255, 255, .4) !important;
+  }
+  .ticket .btn {
+    display: block;
+    color: #476E1D;
+    cursor: pointer;
+    width: 280px !important;
+    height: 28px;
+    font-size: 18px !important;
+    padding: 5px;
+    background-color: #8FC740;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
   }
 
   .snsbar {
@@ -545,9 +584,23 @@ link
   .about {
     margin-top: 245px !important;
   }
-  .about, .speaker, .schedule, .location {
+  .about, .speaker, .schedule, .ticket, .location {
     width: 420px !important;
     background: transparent !important;
+  }
+  .ticket .btn {
+    display: block;
+    color: #476E1D;
+    cursor: pointer;
+    width: 410px !important;
+    height: 28px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #8FC740;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
   }
   .logo {
     margin-left: auto !important;
@@ -659,11 +712,10 @@ link
   }
 }
 
-/* desktop */
+/*--------------------------------------------
+  desktop
+  ------------------------------------------*/
 @media screen and (min-width: 1200px){
-  body {
-    /*background: #eaeaea;*/
-  }
   .container::before {
     top: -120px !important;
     border-bottom: 120px solid #fff !important;
@@ -894,50 +946,6 @@ link
    Helper classes
    ========================================================================== */
 
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-}
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -950,75 +958,4 @@ link
 
 .clearfix {
     *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow:none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }
