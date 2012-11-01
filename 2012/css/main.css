@@ -142,11 +142,6 @@ nav a:hover {
     padding: 0px 5% 10px;
 }
 
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
-}
-
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -158,6 +153,12 @@ nav a:hover {
 /* ==========================================================================
    Author's 공통 custom styles
    ========================================================================== */
+img.center { display: block; margin-left: auto; margin-right: auto; }
+.tran {
+  transition: 0.3s ease;
+  -moz-transition: 0.8s ease;
+  -webkit-transition: 0.8s ease;
+}
 /*-----------------------------------------------
 speaker
 ------------------------------------------------*/
@@ -368,6 +369,12 @@ code::selection {
 
   .location .map {
     text-align: center;
+  }
+  footer {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
   }
 }
 
@@ -584,6 +591,12 @@ code::selection {
         display: inline;
     }
 
+  footer {
+    width: 740px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
 }
 
 /* desktop */
@@ -788,6 +801,12 @@ code::selection {
     margin: 0px !important;
     padding: 0px !important;
     width: 420px !important;
+  }
+  footer {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
   }
 }
 
