@@ -183,6 +183,7 @@ speaker
 .speaker .zoom-container {
     margin-bottom: 20px;
     font: 14px/20px '돋움', 'Source Code Pro', Helvetica, Helvetica Neue, Arial;
+    overflow: hidden;
 }
   .speaker .zoom-container img {
     width: 190px !important;
@@ -191,7 +192,7 @@ speaker
     border: 1px solid #DDD;
     border-radius: 3px;
     float: left;
-    margin: 0 5px 5px 0;
+    margin: 0 10px 5px 0;
   }
 ul.work-items {
   overflow: hidden;
@@ -312,6 +313,10 @@ link
  *------------------------*/
 .about p, .speaker p, .schedule p, .location p {
   font: 14px/26px '돋움';
+}
+
+.about .en {
+  letter-spacing: 0;
 }
 
 /*-------------------------
@@ -457,7 +462,7 @@ link
 }
 
 /* ---------------------------------
-  ipad 
+  ipad
   ---------------------------------*/
 @media only screen and (min-width: 480px) {
   body {
@@ -531,7 +536,7 @@ link
   .schedule .info {
     width: 270px;
   }
-  
+
   .schedule .track {
     width: 135px;
   }
@@ -623,7 +628,7 @@ link
   }
   .snsbar {
     width: 250px;
-    height: 81.9%;
+    height: 83.3%;
     position: absolute;
     right: 0;
     top: 300px;
@@ -805,7 +810,7 @@ link
     top: 420px !important;
     background-color: #EAEAEA !important;
     display: block;
-    height: 74.8% !important;
+    height: 76.8% !important;
     margin: 0 !important;
   }
   .sponsor::after {
@@ -876,7 +881,7 @@ link
     width: 250px !important;
     position: absolute !important;
     right: 0 !important;
-    height: 86.8%;
+    height: 87.9%;
     top: 140px !important;
     background-color: #E6E6E6 !important;
     margin: 0px !important;
