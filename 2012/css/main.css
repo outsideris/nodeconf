@@ -664,6 +664,17 @@ link
     padding: 0 10px;
   }
 
+  .socalbutton {
+    position: absolute;
+    left: 260px;
+    top: -50px;
+    width: 120px;
+  }
+
+  .socalbutton span {
+    display:block;
+  }
+
 /* ====================
     INTERMEDIATE: Menu
    ==================== */

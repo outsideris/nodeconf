@@ -165,6 +165,13 @@
               <h2>#PlayNode</h2>
               <div id="tweetFeed" class="tweet"></div>
             </div>
+            <div class="socalbutton">
+              <span class='st_twitter_hcount' displayText='Tweet'></span>
+              <span class='st_fblike_hcount' displayText='Facebook Like'></span>
+              <span class='st_facebook_hcount' displayText='Facebook'></span>
+              <span class='st_googleplus_hcount' displayText='Google +'></span>
+              <span class='st_pinterest_hcount' displayText='Pinterest'></span>
+            </div>
           </div>
         </div>
         <footer>
@@ -204,6 +211,8 @@
           var s = io.connect('http://nodeqa.com:9040');
           s.on('time', function (data) { document.getElementById('countdown').innerHTML = data.time });
         </script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "f0206945-d41f-41ca-b722-574b56f8d5bf"});</script
 
         <script>
           var _gaq = _gaq || [];
