@@ -366,6 +366,18 @@ link
     width: 300px !important;
     background: rgba(255, 255, 255, .4) !important;
   }
+  
+  .ticket-btn {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #fafafa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
   .ticket .btn {
     display: block;
     color: #476E1D;
