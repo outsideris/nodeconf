@@ -703,7 +703,7 @@ link
 /*--------------------------------------------
   desktop
   ------------------------------------------*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
   .container::before {
     top: -120px !important;
     border-bottom: 120px solid #fff !important;
