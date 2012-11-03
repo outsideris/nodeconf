@@ -110,14 +110,14 @@ $(function() {
       "twitter": "beejei",
       "company" : "다이렉트미디어",
       "session": "Node.js & Web Service",
-      "contents": "..."
+      "contents": "리슨미(http://lisn.me)의 사례를 보며 일반 웹 커뮤니티에 필요한 요소를 Node.js로 어떻게 구현하는지 소개합니다. 필요한 정보를 간단하게 확인하면서 안정적인 서비스를 유지하는 노하우도 공개합니다. + 간단하게 새로운 웹 빌드를 어떻게 시작하는지에 대한 소개도 포함됩니다"
     },
     "j": {
       "name": "김익중",
-      "twitter": "...",
+      "twitter": "rheastrike",
       "company" : "드래곤플라이",
       "session": "MMORPG에서의 node.js를 이용한 커뮤니티 설계",
-      "contents": "..."
+      "contents": "현재 개발중인 SSO 프로젝트의 9월 마일스톤 버전을 통해 node.js/Socket.IO의 적용 사례를 공개합니다. 선택의 이유와 벤치마킹, 그리고 스마트 디바이스를 비롯한 다양한 환경에서의 사례를 발표합니다. 웹기술 역시 TCP와 소켓으로 수행되므로 그 뒷부분에 대한 이야기를 나누며 웹브라우저와 웹프로그래머가 아닌 게임과 서버 개발자의 입장에서 바라본 node.js 경험담이 진행됩니다."
     },
     "aa": {
       "name": "Isaac Z. Schlueter",
