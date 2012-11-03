@@ -138,7 +138,7 @@ $(function() {
       "twitter": "indexzero",
       "company" : "Nodejitsu",
       "session": "미정",
-      "contents": "노드짓주(nodejitsu) CEO로써, 노드짓주는  노드 호스팅 사이트와 노드 프로그램을 실행시킬 수 있는 공간을 제공하는 회사이다. New York의 자바스크립트 컨퍼런스인 Empire.js( HYPERLINK http://empirejs.org)의 큐레이터이기도 하다. 노드 프로세스를 관리하는 forever와 가장 유명한 로깅모듈인 winston, 웹프레임워크인 등 유명한 다수의 노드 모듈을 만든 사람이기도 하다."
+      "contents": "노드짓주(nodejitsu) CEO로써, 노드짓주는  노드 호스팅 사이트와 노드 프로그램을 실행시킬 수 있는 공간을 제공하는 회사이다. New York의 자바스크립트 컨퍼런스인 Empire.js의 큐레이터이기도 하다. 노드 프로세스를 관리하는 forever와 가장 유명한 로깅모듈인 winston, 웹프레임워크인 등 유명한 다수의 노드 모듈을 만든 사람이기도 하다."
     }
   };
   $('#speaker a').click(function(e) {
