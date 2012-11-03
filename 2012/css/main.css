@@ -631,6 +631,7 @@ footer {
     top: 150px;
     background-color: #8FC740;
     display: block;
+    z-index: 1000;
   }
     nav a {
         display: inline;
