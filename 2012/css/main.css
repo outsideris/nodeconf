@@ -465,7 +465,11 @@ footer {
     display: block;
   }
   .speaker .zoom-container {
-      width: 300px;
+      width: 280px;
+  }
+  .speaker .work-items{
+    width: 256px;
+    margin: 0 auto;
   }
   .sponsor {
     display: none;
