@@ -459,9 +459,10 @@ link
   }
 
 
-  .schedule .info small {
+  .schedule .info small,
+  .schedule .track small {
     display: block;
-    font-size:14px;
+    font-size:11px;
     font-weight: normal;
   }
 
@@ -661,6 +662,17 @@ link
 
   .snsbar .contents {
     padding: 0 10px;
+  }
+
+  .socalbutton {
+    position: absolute;
+    left: 260px;
+    top: -50px;
+    width: 120px;
+  }
+
+  .socalbutton span {
+    display:block;
   }
 
 /* ====================
