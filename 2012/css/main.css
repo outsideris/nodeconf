@@ -436,7 +436,7 @@ organizers
 ------------------------------------------------*/
 #organizers {
   margin: 0 auto;
-  width: 800px;
+  width: 940px;
   margin-bottom: 50px;
   text-align: center;
   display: none;
@@ -444,15 +444,16 @@ organizers
 
 #organizers h2 {
   font-size: 34px;
+  line-height: 40px;
   border-bottom: 2px solid #8FC740;
   letter-spacing: -3px;
 }
 
 #organizers .organizers {
+  width: 150px;
   display: inline-block;
   text-align: center;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px;
 }
 
 #organizers .organizers img {
@@ -614,6 +615,16 @@ organizers
     margin: 0 auto;
     text-align: center;
     margin-bottom: 100px;
+  }
+  /*-----------------------------------------------
+  organizers
+  ------------------------------------------------*/
+  #organizers {
+    margin: 0 auto;
+    width: 240px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
   }
 }
 
@@ -823,7 +834,16 @@ organizers
     .location .map {
       float: right;
     }
-
+/*-----------------------------------------------
+organizers
+------------------------------------------------*/
+#organizers {
+  margin: 0 auto;
+  width: 720px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: none;
+}
 
 }
 
