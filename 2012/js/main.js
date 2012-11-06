@@ -24,6 +24,9 @@ $(function() {
       } else {
         stopAutorefresh(options);
       }
+    },
+    tweetFilter: function(status) {
+      return !/^RT.*/.test(status.text)
     }
   });
 
