@@ -431,7 +431,46 @@ footer {
     font-size: 10px;
 }
 
+/*-----------------------------------------------
+organizers
+------------------------------------------------*/
+#organizers {
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: none;
+}
 
+#organizers h2 {
+  font-size: 34px;
+  border-bottom: 2px solid #8FC740;
+  letter-spacing: -3px;
+}
+
+#organizers .organizers {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#organizers .organizers img {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#organizers .organizers span {
+  display: block;
+}
+
+#organizers .organizers span.name {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #5674BF;
+  font-weight: bold;
+}
 
 /* ==========================================================================
    Media Queries

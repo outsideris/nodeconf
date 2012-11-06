@@ -166,4 +166,26 @@ $(function() {
   // init
   //
   $('#speaker a').eq(1).find('img').click();
+
+  $('#menu_organ').click(function() {
+    $('#organizers').show();
+  });
+
+  $('#organizers').find('h2').find('span').click(function() {
+    $('#organizers').hide();
+  });
+
+  // tooltip
+  $('.organizers').qtip({
+    content: {
+      attr: 'data-tooltip'
+    },
+    position: {
+      my: "bottom center",
+      at: "top center"
+    },
+    style: {
+      classes: 'ui-tooltip-shadow ui-tooltip-youtube'
+    }
+  })
 });
