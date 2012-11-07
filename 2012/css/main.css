@@ -27,12 +27,12 @@ speaker link
 .speaker a:hover   {text-decoration:underline; color:#476E1D }
 
 /*-----------------------------------------------
-footer link
+a Link 
 ------------------------------------------------*/
-footer a:link    {text-decoration:none; color:#429940 }
-footer a:visited {text-decoration:none; color:#429940 }
-footer a:active  {text-decoration:none; color:#429940 }
-footer a:hover   {text-decoration:underline; color:#476E1D }
+a:link    {text-decoration:none; color:#429940 }
+a:visited {text-decoration:none; color:#429940 }
+a:active  {text-decoration:none; color:#429940 }
+a:hover   {text-decoration:underline; color:#476E1D }
 
 ::-moz-selection {
     color: #fff;
@@ -139,7 +139,7 @@ nav a {
     color: white;
 }
 
-nav a:hover,
+nav a:hover,nav a:active,nav a:link,
 nav a:visited {
     color: white;
 }
@@ -464,12 +464,13 @@ organizers
 
 #organizers .organizers span {
   display: block;
+  letter-spacing: -1px;
 }
 
 #organizers .organizers span.name {
   margin-top: 5px;
-  font-size: 15px;
-  color: #5674BF;
+  font-size: 16px;
+  color: #464646;
   font-weight: bold;
 }
 
