@@ -27,12 +27,12 @@ speaker link
 .speaker a:hover   {text-decoration:underline; color:#476E1D }
 
 /*-----------------------------------------------
-footer link
+a Link 
 ------------------------------------------------*/
-footer a:link    {text-decoration:none; color:#429940 }
-footer a:visited {text-decoration:none; color:#429940 }
-footer a:active  {text-decoration:none; color:#429940 }
-footer a:hover   {text-decoration:underline; color:#476E1D }
+a:link    {text-decoration:none; color:#429940 }
+a:visited {text-decoration:none; color:#429940 }
+a:active  {text-decoration:none; color:#429940 }
+a:hover   {text-decoration:underline; color:#476E1D }
 
 ::-moz-selection {
     color: #fff;
@@ -139,7 +139,7 @@ nav a {
     color: white;
 }
 
-nav a:hover,
+nav a:hover,nav a:active,nav a:link,
 nav a:visited {
     color: white;
 }
@@ -431,7 +431,48 @@ footer {
     font-size: 10px;
 }
 
+/*-----------------------------------------------
+organizers
+------------------------------------------------*/
+#organizers {
+  margin: 0 auto;
+  width: 940px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: none;
+}
 
+#organizers h2 {
+  font-size: 34px;
+  line-height: 40px;
+  border-bottom: 2px solid #8FC740;
+  letter-spacing: -3px;
+}
+
+#organizers .organizers {
+  width: 170px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px 20px;
+}
+
+#organizers .organizers img {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#organizers .organizers span {
+  display: block;
+  letter-spacing: -1px;
+}
+
+#organizers .organizers span.name {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #464646;
+  font-weight: bold;
+}
 
 /* ==========================================================================
    Media Queries
@@ -575,6 +616,16 @@ footer {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 100px;
+  }
+  /*-----------------------------------------------
+  organizers
+  ------------------------------------------------*/
+  #organizers {
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
   }
 }
 
@@ -784,7 +835,16 @@ footer {
     .location .map {
       float: right;
     }
-
+/*-----------------------------------------------
+organizers
+------------------------------------------------*/
+#organizers {
+  margin: 0 auto;
+  width: 720px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: none;
+}
 
 }
 
