@@ -505,6 +505,10 @@ organizers
     margin: 0 auto 60px;
     display: block;
   }
+  .sponsor-shiv img{ 
+    width: 60px;
+    margin: 0px 14px 10px;
+  }
   .speaker .zoom-container {
       width: 280px;
   }
@@ -715,6 +719,7 @@ organizers
       width: 60px;
       position: relative;
       top:-8px;
+      margin: 0 8px;
     }
   .socalbutton{
     display: inline;
