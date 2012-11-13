@@ -1,0 +1,183 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'locally' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'locally', null ]
+7 silly cache add name=undefined spec="locally" args=["locally",null]
+8 verbose parsed url { pathname: 'locally', path: 'locally', href: 'locally' }
+9 silly lockFile 22f8dafa-locally locally
+10 verbose lock locally /Volumes/DATA/Users/imazine/.npm/22f8dafa-locally.lock
+11 silly lockFile 22f8dafa-locally locally
+12 verbose addNamed [ 'locally', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile fec2d5b0-locally locally@
+15 verbose lock locally@ /Volumes/DATA/Users/imazine/.npm/fec2d5b0-locally.lock
+16 silly addNameRange { name: 'locally', range: '', hasData: false }
+17 verbose url raw locally
+18 verbose url resolving [ 'https://registry.npmjs.org/', './locally' ]
+19 verbose url resolved https://registry.npmjs.org/locally
+20 info trying registry request attempt 1 at 05:40:49
+21 http GET https://registry.npmjs.org/locally
+22 http 200 https://registry.npmjs.org/locally
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+23 silly registry.get     etag: '"AVCLMQPF88UGK7LL5JKX9P1JZ"',
+23 silly registry.get     date: 'Mon, 12 Nov 2012 20:40:31 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '10249' } ]
+24 silly addNameRange number 2 { name: 'locally', range: '', hasData: true }
+25 silly addNameRange versions [ 'locally', [ '0.0.0', '0.1.1', '0.1.2', '0.1.4' ] ]
+26 verbose addNamed [ 'locally', '0.1.4' ]
+27 verbose addNamed [ '0.1.4', '0.1.4' ]
+28 silly lockFile 2a7ae655-locally-0-1-4 locally@0.1.4
+29 verbose lock locally@0.1.4 /Volumes/DATA/Users/imazine/.npm/2a7ae655-locally-0-1-4.lock
+30 silly lockFile 3101ec6e-js-org-locally-locally-0-1-4-tgz https://registry.npmjs.org/locally/-/locally-0.1.4.tgz
+31 verbose lock https://registry.npmjs.org/locally/-/locally-0.1.4.tgz /Volumes/DATA/Users/imazine/.npm/3101ec6e-js-org-locally-locally-0-1-4-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/locally/-/locally-0.1.4.tgz',
+32 verbose addRemoteTarball   'db64b4a397f3b47539437efa703c4e2340cf3b6f' ]
+33 info retry fetch attempt 1 at 05:40:52
+34 verbose fetch to= /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/tmp.tgz
+35 http GET https://registry.npmjs.org/locally/-/locally-0.1.4.tgz
+36 http 200 https://registry.npmjs.org/locally/-/locally-0.1.4.tgz
+37 silly shasum updated bytes 4448
+38 info shasum db64b4a397f3b47539437efa703c4e2340cf3b6f
+38 info shasum /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/tmp.tgz
+39 verbose tar unpack /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/tmp.tgz
+40 silly lockFile 5f03437d-52279-0-2145211985334754-package /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package
+41 verbose lock /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package /Volumes/DATA/Users/imazine/.npm/5f03437d-52279-0-2145211985334754-package.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+45 silly gunzTarPerm extractEntry .npmignore
+46 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+51 silly gunzTarPerm extractEntry bin/_locally
+52 silly gunzTarPerm modified mode [ 'bin/_locally', 511, 493 ]
+53 silly gunzTarPerm extractEntry bin/locally
+54 silly gunzTarPerm modified mode [ 'bin/locally', 511, 493 ]
+55 silly gunzTarPerm extractEntry example/test-server.js
+56 silly gunzTarPerm modified mode [ 'example/test-server.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry lib/locally.js
+58 silly gunzTarPerm modified mode [ 'lib/locally.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry test/.locally
+60 silly gunzTarPerm modified mode [ 'test/.locally', 438, 420 ]
+61 silly gunzTarPerm extractEntry test/locally-test.sh
+62 silly gunzTarPerm modified mode [ 'test/locally-test.sh', 438, 420 ]
+63 silly gunzTarPerm extractEntry test/public/about/index.html
+64 silly gunzTarPerm modified mode [ 'test/public/about/index.html', 438, 420 ]
+65 silly gunzTarPerm extractEntry test/public/book.html
+66 silly gunzTarPerm modified mode [ 'test/public/book.html', 438, 420 ]
+67 silly gunzTarPerm extractEntry test/public/css/main.css
+68 silly gunzTarPerm modified mode [ 'test/public/css/main.css', 438, 420 ]
+69 silly gunzTarPerm extractEntry test/public/index.html
+70 silly gunzTarPerm modified mode [ 'test/public/index.html', 438, 420 ]
+71 silly gunzTarPerm extractEntry test/public/js/main.js
+72 silly gunzTarPerm modified mode [ 'test/public/js/main.js', 438, 420 ]
+73 verbose read json /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package/package.json
+74 silly lockFile 5f03437d-52279-0-2145211985334754-package /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package
+75 verbose from cache /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package/package.json
+76 verbose tar pack [ '/Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz',
+76 verbose tar pack   '/var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package' ]
+77 verbose tarball /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+78 verbose folder /var/folders/zp/hrmvcf2n6k107x3qr6y5lyy80000gn/T/npm-11569/1352752852279-0.2145211985334754/package
+79 silly lockFile b0d28a36-ne-npm-locally-0-1-4-package-tgz /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+80 verbose lock /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz /Volumes/DATA/Users/imazine/.npm/b0d28a36-ne-npm-locally-0-1-4-package-tgz.lock
+81 silly lockFile b0d28a36-ne-npm-locally-0-1-4-package-tgz /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+82 silly lockFile 174da41d-mazine-npm-locally-0-1-4-package /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package
+83 verbose lock /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package /Volumes/DATA/Users/imazine/.npm/174da41d-mazine-npm-locally-0-1-4-package.lock
+84 silly lockFile 174da41d-mazine-npm-locally-0-1-4-package /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package
+85 verbose tar unpack /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+86 silly lockFile 174da41d-mazine-npm-locally-0-1-4-package /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package
+87 verbose lock /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package /Volumes/DATA/Users/imazine/.npm/174da41d-mazine-npm-locally-0-1-4-package.lock
+88 silly gunzTarPerm modes [ '755', '644' ]
+89 silly gunzTarPerm extractEntry package.json
+90 silly gunzTarPerm extractEntry .npmignore
+91 silly gunzTarPerm extractEntry README.md
+92 silly gunzTarPerm extractEntry index.js
+93 silly gunzTarPerm extractEntry bin/_locally
+94 silly gunzTarPerm extractEntry bin/locally
+95 silly gunzTarPerm extractEntry example/test-server.js
+96 silly gunzTarPerm extractEntry lib/locally.js
+97 silly gunzTarPerm extractEntry test/.locally
+98 silly gunzTarPerm extractEntry test/locally-test.sh
+99 silly gunzTarPerm extractEntry test/public/about/index.html
+100 silly gunzTarPerm extractEntry test/public/book.html
+101 silly gunzTarPerm extractEntry test/public/css/main.css
+102 silly gunzTarPerm extractEntry test/public/index.html
+103 silly gunzTarPerm extractEntry test/public/js/main.js
+104 verbose read json /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package/package.json
+105 silly lockFile 174da41d-mazine-npm-locally-0-1-4-package /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package
+106 silly shasum updated bytes 4448
+107 info shasum 51bc654c1b1c776feb3f30308ba6a783505acf76
+107 info shasum /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+108 verbose from cache /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package/package.json
+109 verbose chmod /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz 644
+110 verbose chown /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz [ 501, 20 ]
+111 silly lockFile 3101ec6e-js-org-locally-locally-0-1-4-tgz https://registry.npmjs.org/locally/-/locally-0.1.4.tgz
+112 silly lockFile 2a7ae655-locally-0-1-4 locally@0.1.4
+113 silly lockFile fec2d5b0-locally locally@
+114 silly resolved [ { author:
+114 silly resolved      { name: 'Rhio Kim',
+114 silly resolved        email: 'rhio.kim@gmail.com',
+114 silly resolved        url: 'http://about.me/rhio' },
+114 silly resolved     name: 'locally',
+114 silly resolved     description: 'simple, locally web server for file serving & markup job. \'$ python -m SimpleHTTPServer 8080\' ',
+114 silly resolved     version: '0.1.4',
+114 silly resolved     homepage: 'http://github.com/rhiokim/locally',
+114 silly resolved     repository: { type: 'git', url: 'git@github.com:rhiokim/locally.git' },
+114 silly resolved     main: 'index.js',
+114 silly resolved     bin: { locally: './bin/locally', _locally: './bin/_locally' },
+114 silly resolved     engines: { node: '~0.6.x' },
+114 silly resolved     dependencies: { commander: '1.0.x', connect: '1.8.x' },
+114 silly resolved     devDependencies: {},
+114 silly resolved     optionalDependencies: {},
+114 silly resolved     readme: '#Intro\nlocally 는 웹 개발 시 로컬 서버를 손쉽게 생성해서 테스트 개발환경을 구축하기 위한 Node.js 기반의 미들웨어이다.  이 프로젝트는 Python 의 SimpleHTTPServer 에서 아이디어를 얻었다.\n\n언제, 어느 작업 디렉토리에 있던 내가 원하는 로컬 서버를 설정하기 위해서 사용된다.\n\n>뿐만 아니라 최근의 웹 기술중 서버측 css인 less 를 지원한다. 그리고 향후 유용한 서버측 환경설정 프리셋을 제공하여 손쉽게 마크업 개발 환경을 만들 예정이다. <small>&lt;보류&gt;</small>\n\nlocally 는 connect 모듈을 기반으로 동작하는데 connect 모듈은 다양한 미들웨어를 추가해서 high class 기능등을 사용할 수 있다.  뿐만 아니라 손쉽게 로컬 웹 서버를 구축해서 마크업 환경을 설정할 수 있다.\n\n#Install\nRequire NPM(Node Package Manager)\n\n```\ncurl http://npmjs.org/install.sh | sh\n```\n\nNPM module install to global\n\n```\n$ npm install -g locally\n```\n\n\n#Dependencies\nlocally 는 connect 모듈을 통해 웹 서버가 구동되고 cli 모듈은 commander.js 모듈을 이용하였다. 두가지 모듈 모두 visionmedia 의 TJ 가 개발한 node.js 모듈이다.\n\n#How to use\n\n**directory structure**\n\n```\n./\n+ static\n  - js\n  - img\n  - css\n+ public\n  - index.html\n  + routes\n    - about/index.html\n```\n\n**python**\n\n```python\n$ python -m SimpleHTTPServer -p 8080\n```\n\n\n**basic command**\n\n```bash\n//simple command\n$ locally -p 8080\n\n//full command\n$ locally --public ./public -port 8080\n\n//short cut command\n$ locally -w ./public -p 8080\n\n//debug mode\n$ locally --debug\n\n$ curl http://localhost:8080/\n$ curl http://localhost:8080/about\n```\n\n**help cli**\n\n```bash\n$ locally --help\n\nUsage: _locally [options]\n\n  Options:\n\n    -h, --help                  output usage information\n    -V, --version               output the version number\n    -s, --static <directory>    directory for serving static files\n    -w, --public <directory>    directory for serving public files\n    -d, --debug                 debug mode\n    -p, --port <port>           public port\n    -f, --file <configuration>  set configuration file\n    -n, --vhost <virtual host>  set vhost information\n\n Examples:\n\n    $ locally -w ./public -p 8080  start basic locally server\n    $ locally -d                   debug mode, default <false>\n    $ locally -f ./conf/.locally   force adjust locally configuration file\n```\n\n##options\n`locally` 는 기본적으로 실행 위치를 기준으로 `.locally` 파일로 미리 정의된 환경 옵션 셋을 지원한다.\n\n> 만약 이 파일이 없다면 `locally --help` 를 통해 cli 옵션을 활용할 수 있다. \n\n```\n$ cd /path/to/my_web_project\n$ pwd\n/path/to/my_web_project\n\n$ cat .locally\n-w ./src/main\n-p 8081\n--debug\n\n$ locally\ndocument root :  /path/to/my_web_project/./src/main\ndebug mode : true \nServing started at http://localhost:8081\n```\n\n#Roadmap\n* Virtual Host 환경 지원\n* fs.watcher 를 이용한 on the fly 기능\n* markdown preview 기능 지원\n\n#License\n\n(The MIT License)\n\nCopyright (c) 2011 Rhio Kim <rhio.kim@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \'Software\'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+114 silly resolved     readmeFilename: 'README.md',
+114 silly resolved     _id: 'locally@0.1.4',
+114 silly resolved     dist: { shasum: '51bc654c1b1c776feb3f30308ba6a783505acf76' },
+114 silly resolved     _from: 'locally' } ]
+115 info install locally@0.1.4 into /usr/local/lib
+116 info installOne locally@0.1.4
+117 warn engine locally@0.1.4: wanted: {"node":"~0.6.x"} (current: {"node":"v0.8.14","npm":"1.1.65"})
+118 verbose from cache /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package/package.json
+119 info /usr/local/lib/node_modules/locally unbuild
+120 verbose read json /usr/local/lib/node_modules/locally/package.json
+121 verbose tar unpack /Volumes/DATA/Users/imazine/.npm/locally/0.1.4/package.tgz
+122 silly lockFile 02ad4472-r-local-lib-node-modules-locally /usr/local/lib/node_modules/locally
+123 verbose lock /usr/local/lib/node_modules/locally /Volumes/DATA/Users/imazine/.npm/02ad4472-r-local-lib-node-modules-locally.lock
+124 silly gunzTarPerm modes [ '755', '644' ]
+125 error Error: EACCES, mkdir '/usr/local/lib/node_modules/locally'
+125 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/locally']
+125 error   errno: 3,
+125 error   code: 'EACCES',
+125 error   path: '/usr/local/lib/node_modules/locally',
+125 error   fstream_type: 'Directory',
+125 error   fstream_path: '/usr/local/lib/node_modules/locally',
+125 error   fstream_class: 'DirWriter',
+125 error   fstream_stack:
+125 error    [ 'DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+125 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+125 error      'Object.oncomplete (fs.js:297:15)' ] }
+126 error Please try running this command again as root/Administrator.
+127 error System Darwin 12.2.0
+128 error command "node" "/usr/local/bin/npm" "install" "-g" "locally"
+129 error cwd /Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf
+130 error node -v v0.8.14
+131 error npm -v 1.1.65
+132 error path /usr/local/lib/node_modules/locally
+133 error fstream_path /usr/local/lib/node_modules/locally
+134 error fstream_type Directory
+135 error fstream_class DirWriter
+136 error code EACCES
+137 error errno 3
+138 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/locally'
+139 error fstream_stack DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+139 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+139 error fstream_stack Object.oncomplete (fs.js:297:15)
+140 verbose exit [ 3, true ]
