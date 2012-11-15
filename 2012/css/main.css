@@ -185,12 +185,13 @@ speaker
   text-align: center;
   font: 12px/20px 'codystar';
   color: #476E1D;
-  text-shadow: 0 0 2px #e3efd3;
 }
 
 .logo time{
   font-size:24px;
   letter-spacing: 1px;
+  font-weight:bold;
+  line-height: 26px;
 }
 
 .logo a{
@@ -460,6 +461,7 @@ organizers
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
+  width: 100px;
 }
 
 #organizers .organizers span {
@@ -500,6 +502,7 @@ organizers
     padding: 30px 0;
     background: rgba(255, 255, 255, .35) !important;
   }
+
   .logo img{width:300px;height:84px;}
   .sponsor-shiv {
     margin: 0 auto 60px;
@@ -637,15 +640,19 @@ organizers
   ipad
   ---------------------------------*/
 @media only screen and (min-width: 740px) and (max-width: 979px){
-  body {
-    /*background-color: red;*/
+ 
+  .logo a{
+    color: #ffffff;
+    z-index: 1000;
+    font-weight: bold;
   }
-
+  
   .logo p{
     position: relative;
     padding : 6px 0 0 ;
     left: -157px;
     width: 740px;
+    color: #ffffff;
     background-color: #8EC63F;
   }
 
@@ -683,7 +690,7 @@ organizers
     padding: 10px 0;
     text-align: center;
     position: absolute;
-    top: 150px;
+    top: 152px;
     background-color: #8FC740;
     display: block;
     z-index: 1000;
