@@ -57,7 +57,7 @@ $(function() {
       "twitter": "nanhapark",
       "company" : "KTH",
       "session": "Node.js 본질",
-      "contents": "Production 레벨에서 Node.js 를 사용함에 있어서 logging 부터 Cluster까지 필수적으로 알아야 하는 핵심적인 부분에 대해서 알려드립니다. 이 부분을 알고 나시면 여러분은 고수 ps. 20가지중 realtime 부분에서 100 바이트도 안되는 socket.io tiny-prototyping 사용하여 간단한 장난감부터 Production Level (KTH에서 작업한 UCloud VM 자동생성, 자동설치) 에 적용하기까지의 단계를 설명합니다"
+      "contents": "Production 레벨에서 Node.js 를 사용함에 있어서 logging 부터 Cluster까지 필수적으로 알아야 하는 핵심적인 부분에 대해서 알려드립니다. 이 부분을 알고 나시면 여러분은 고수 ps. realtime 부분에서 15줄도 안되는 코드로 socket.io tiny-prototyping 을 구성하여 간단한 장난감부터 Production Level (KTH에서 작업한 UCloud VM 자동생성, 자동설치) 에 적용하기까지의 단계를 설명합니다"
     },
     "b": {
       "name": "백정상",
