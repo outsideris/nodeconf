@@ -323,7 +323,9 @@ link
   border-bottom: 2px dotted #DDD;
   padding: 10px 0;
 }
-
+.snsbar .contents {
+    padding: 0 20px;
+}
 
 /*-------------------------
  * contents
@@ -417,9 +419,13 @@ article h2 {
   overflow: hidden;
 }
 
-  .snsbar .contents {
-    padding: 0 20px;
-  }
+
+.location .map {
+    float: right;
+    position: relative;
+    top: 11px;
+    margin-bottom: 10px;
+}
 
 /*-------------------------
  * footer
@@ -607,8 +613,13 @@ organizers
     width: 320px;
   }
 
-  .location .map {
+  .location {
     text-align: center;
+  }
+
+  .location .map{
+    float:left;
+    margin-left: 6px;
   }
 
   /*--------------------------------------
@@ -844,9 +855,7 @@ organizers
       position: relative;
       top: 28px;
     }
-    .location .map {
-      float: right;
-    }
+    
 /*-----------------------------------------------
 organizers
 ------------------------------------------------*/
@@ -1076,9 +1085,7 @@ organizers
     position: relative;
     top: 28px;
   }
-  .location .map {
-    float: right;
-  }
+  
   .ticket{
     display: none;
   }
