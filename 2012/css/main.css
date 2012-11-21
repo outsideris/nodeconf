@@ -83,6 +83,7 @@ textarea {
 
 body {
     font: 12px/18px 'Source Code Pro','NanumGothic','Century Gothic',Verdana, Arial;
+    letter-spacing: 0px;
 }
 
 h2 {
@@ -331,7 +332,8 @@ link
  * contents
  *------------------------*/
 .about p, .speaker p, .schedule p, .location p {
-  letter-spacing: 0px;
+  letter-spacing: -1px;
+  word-spacing: 1px;
 }
 
 .about .en {
