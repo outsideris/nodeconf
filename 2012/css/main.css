@@ -188,8 +188,8 @@ speaker
 }
 
 .logo time{
-  font-size:24px;
-  letter-spacing: 1px;
+  font-size:18px;
+  letter-spacing: 0px;
   font-weight:bold;
   line-height: 26px;
 }
