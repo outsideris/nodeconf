@@ -4,7 +4,7 @@ $(function() {
   //
   $('#tweetFeed').jTweetsAnywhere({
     searchParams: ['q=PlayNode', 'q=playnode', 'q=octoberskyjs', 'q=nodeconf.kr'],
-    count: 17,
+    count: 20,
     showTweetFeed: {
       autorefresh: {
         mode: 'trigger-insert',
