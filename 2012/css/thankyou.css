@@ -437,7 +437,7 @@ article h2 {
     font-weight: normal;
   }
 
-  .schedule .track a{
+  .schedule .track a, .schedule .info a{
     display: block;
     line-height: 24px;
   }
