@@ -811,14 +811,18 @@ organizers
     display: block;
     z-index: 1000;
   }
-    nav a {
-        display: inline;
-        margin-bottom: 10px;
-        text-align: center;
-        text-decoration: none;
+  nav a {
+      display: inline;
+      margin-bottom: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+  }
+  .registerButton{
+    width: 90px;
+  }
 
-        color: white;
-    }
   .speaker .zoom-container {
       width: 420px !important;
   }
