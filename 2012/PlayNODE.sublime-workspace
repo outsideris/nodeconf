@@ -1,0 +1,388 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border"
+			],
+			[
+				"zoom",
+				"zoom-container"
+			],
+			[
+				"back",
+				"background-color	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"linter",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"css",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"syntax: css",
+				"Set Syntax: CSS"
+			],
+			[
+				"lint",
+				"SublimeLinter: Reset"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"pcip ",
+				"Package Control: Install Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"format: ",
+				"Format: Javascript"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pcdp",
+				"Package Control: Disable Package"
+			],
+			[
+				"p",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: rep",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack ins p ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 345.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/imazine/Dropbox/Projects/PlayNODE/Web/nodeconf/2012/js/main.js",
+		"/home/imazine/Dropbox/Projects/PlayNODE/Web/nodeconf/2012/index.html",
+		"/home/imazine/Dropbox/Projects/PlayNODE/Web/nodeconf/2012/css/main.css",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/js/main.js",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/Prefixr/Default (OSX).sublime-keymap",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/css/jquery.qtip.min.css",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/index.html",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/css/main.css",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/js/jquery.jtweetsanywhere-1.3.1.js",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/attendee.html",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/css/attendee.css",
+		"/Volumes/DATA/DaumCloud/Projects/PlayNODE/Web/nodeconf/2012/css/normalize.min.css",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/js/jquery.shop.js",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/skin/loginForm.php",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/css/admin.css",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/css/style.css",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/sublime-closure-linter/sublime-closure-linter.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/JsMinifier/Minifier.sublime-settings",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/admin.php",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/js/jquery.admin.js",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Downloads/후궁-제왕의첩.IptvRip.X264.720.dr.hart.mkv",
+		"/Volumes/DATA/DaumCloud/Projects/handduck/Web Source/2012New.Dev/index.php",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/Volumes/DATA/Users/imazine/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"article",
+			"Ari",
+			"/* ==========================================================================\n   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)\n   ========================================================================== */\n\nhtml,\nbutton,\ninput,\nselect,\ntextarea {\n    color: #222;\n}\n\n\nbody {\n    font-size: 1em;\n    line-height: 1.4;\n    /*background-color: #E6E6E6;*/\n    background-image: url(/2012/img/paper-background.jpg);\n    color: #808080;\n}\n\n/*-----------------------------------------------\nspeaker link\n------------------------------------------------*/\n.speaker a:link    {text-decoration:none; color:#696D69 }\n.speaker a:visited {text-decoration:none; color:#696D69 }\n.speaker a:active  {text-decoration:none; color:#8EA5D1 }\n.speaker a:hover   {text-decoration:underline; color:#476E1D }\n\n/*-----------------------------------------------\na Link \n------------------------------------------------*/\na:link    {text-decoration:none; color:#429940 }\na:visited {text-decoration:none; color:#429940 }\na:active  {text-decoration:none; color:#429940 }\na:hover   {text-decoration:underline; color:#476E1D }\n\n::-moz-selection {\n    color: #fff;\n    background: #476E1D;\n    text-shadow: none;\n}\n\n::selection {\n    color: #fff;\n    background: #429940;\n    text-shadow: none;\n}\n\nhr {\n    display: block;\n    height: 1px;\n    border: 0;\n    border-top: 1px solid #ccc;\n    margin: 1em 0;\n    padding: 0;\n}\n\nimg {\n    vertical-align: middle;\n}\n\nfieldset {\n    border: 0;\n    margin: 0;\n    padding: 0;\n}\n\ntextarea {\n    resize: vertical;\n}\n\n.chromeframe {\n    margin: 0.2em 0;\n    background: #ccc;\n    color: #000;\n    padding: 0.2em 0;\n}\n\n\n/* ===== Initializr Styles ==================================================\n   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template\n   ========================================================================== */\n\nbody {\n    font: 12px/18px 'Source Code Pro','NanumGothic','Century Gothic',Verdana, Arial;\n}\n\nh2 {\n  font-size: 24px;\n  line-height: 40px;\n  letter-spacing: -2px;\n  color: #6A6A6A;\n  font-weight:400;\n}\n.wrapper {\n    width: 90%;\n    margin: 0 5%;\n}\n\n/* ===================\n    ALL: Orange Theme\n   =================== */\n\n.header-container {\n    border-bottom: 20px solid #e44d26;\n}\n\n.footer-container,\n.main aside {\n    border-top: 20px solid #e44d26;\n}\n\n.header-container,\n.footer-container,\n.main aside {\n    background: #f16529;\n}\n\n.title {\n    color: white;\n}\n\n/* ==============\n    MOBILE: Menu\n   ============== */\n\nnav ul {\n    margin: 0;\n    padding: 0;\n}\n\nnav a {\n    display: block;\n    margin-bottom: 10px;\n\n    text-align: center;\n    text-decoration: none;\n\n    color: white;\n}\n\nnav a:hover,nav a:active,nav a:link,\nnav a:visited {\n    color: white;\n}\n\nnav a:hover {\n    text-decoration: underline;\n}\n\n/* ==============\n    MOBILE: Main\n   ============== */\n\n.main {\n    padding: 30px 0;\n}\n\n.main article h1 {\n    font-size: 2em;\n}\n\n.main aside {\n    color: white;\n    padding: 0px 5% 10px;\n}\n\n/* ===============\n    ALL: IE Fixes\n   =============== */\n\n.ie7 .title {\n    padding-top: 20px;\n}\n\n/* ==========================================================================\n   Author's 공통 custom styles\n   ========================================================================== */\nimg.center { display: block; margin-left: auto; margin-right: auto; }\n\n/*-----------------------------------------------\nspeaker\n------------------------------------------------*/\n.logo{\n  text-align: center;\n  font: 12px/20px 'codystar';\n  color: #476E1D;\n}\n\n.logo time{\n  font-size:24px;\n  letter-spacing: 1px;\n  font-weight:bold;\n  line-height: 26px;\n}\n\n.logo a{\n  text-decoration: none;\n}\n.speaker .zoom-container {\n    margin-bottom: 20px;\n    overflow: hidden;\n}\n  .speaker .zoom-container img {\n    width: 190px !important;\n    padding: 5px;\n    background: white;\n    border: 1px solid #DDD;\n    border-radius: 3px;\n    float: left;\n    margin: 0 10px 5px 0;\n  }\nul.work-items {\n  overflow: hidden;\n  padding: 0px !important;\n  clear: both;\n}\nol, ul {\nlist-style: none;\n}\nul.work-items li {\n  padding: 3px !important;\n  background: white;\n  margin: 0 4px 4px 0;\n  list-style: none;\n  float: left;\n  width: 72px;\n  border: 1px solid #DDD;\n  border-radius: 3px;\n}\nul.work-items li:hover{\n  background:#8EC63F;\n  border:1px solid #8EC63F;\n /* transition:all 0.2s;\n  -moz-transition:all 0.2s;\n  -webkit-transition:all 0.2s;*/\n}\nul li {\nlist-style: none;\n}\nul.work-items li.last {\n/*margin-right: 0px;*/\n}\n\nh2.rollup {\n  position: relative;\n}\nh2.rollup a {\n  color: #476E1D;\n  position: absolute;\n  cursor: pointer;\n  right: 0;\n  top: 0;\n  /*width: 41px;\n  height: 28px;*/\n  /*background: url(\"/images/structure/0.3.5/rollup.png\") right top no-repeat;*/\n  font-size: 11px;\n}\n.ticket .btn {\n  display: block;\n  color: #476E1D;\n  cursor: pointer;\n  width: 400px !important;\n  height: 28px;\n  font-size: 20px;\n  padding: 5px;\n  background-color: #8FC740;\n  color: #fff;\n  text-decoration: none;\n  border-radius: 5px;\n  text-align: center;\n}\nnav a {\n  font-size: 24px;\n  line-height: 34px;\n  font-weight: 300;\n  letter-spacing: 0px;\n}\n/*-----------------------------------------------\nlink\n------------------------------------------------*/\n.sidebar a:hover {\n  text-decoration:none;\n  color:#476E1D;\n}\n\n/*.sidebar a {\n	transition: color .6s linear;\n	-moz-transition: color .6s linear;\n	-webkit-transition: color .6s linear;\n}*/\n.ticket a:hover {\n  text-decoration:none;\n  color:red;\n}\n/*.ticket a {\n	transition: color .6s linear;\n	-moz-transition: color .6s linear;\n	-webkit-transition: color .6s linear;\n}*/\n:focus {\n	outline: 0;\n}\n\n/*-------------------------\n * main\n *------------------------*/\n.main article h2 {\n  border-bottom: 2px solid #8FC740;\n  letter-spacing: -3px;\n}\n\n/*-------------------------\n * snsbar\n *------------------------*/\n\n.snsbar .jta-tweet-user-screen-name-link,\n.snsbar .jta-tweet-a, .twitter-anywhere-user {\n  color: #8EC63F;\n}\n\n.snsbar .jta-tweet-list-item {\n  border-bottom: 2px dotted #DDD;\n  padding: 10px 0;\n}\n.snsbar .contents {\n    padding: 0 20px;\n}\n\n/*-------------------------\n * contents\n *------------------------*/\n.about p, .speaker p, .schedule p, .location p {\n  letter-spacing: 0px;\n}\n\n.about .en {\n  letter-spacing: 0;\n}\n\n\narticle {\n    width: 420px;\n    margin: 0px auto 60px ;\n    padding: 0;\n  }\n\narticle h2 {\n  font-size: 34px;\n}\n\n/*--------------------------------------\n   * schedule\n* ------------------------------------*/\n   .schedule h3 {\n    text-align: center;\n    font-size: 18px;\n    letter-spacing: -2px;\n    padding-top: 20px;\n   }\n\n   .schedule ul {\n    padding: 0;\n    letter-spacing: -1px;\n    font-size: 12px;\n    line-height: 16px;\n   }\n\n  .schedule li {\n    width: 420px;\n    display: table;\n    text-align: center;\n    margin-bottom: 10px;\n    background: #8EC63F;\n  }\n\n  .schedule p {\n    display: table-cell;\n    padding: 10px;\n    vertical-align: middle;\n  }\n\n  .schedule small{\n    font-size: 10px;\n    color: #e3efd3;\n  }\n\n  .schedule .time {\n    width: 75px;\n    background: #C3DE9A;\n    font-size: 9pt !important;\n  }\n\n  .schedule .info {\n    width: 200px;\n    color: #fff;\n  }\n\n  .schedule .track {\n    width: 100px;\n    color: #fff;\n  }\n\n  .schedule .btrack {\n    background: #466d1d;\n  }\n\n\n  .schedule .info small,\n  .schedule .track small {\n    display: block;\n    font-size:11px;\n    font-weight: normal;\n  }\n/*-------------------------\n * location\n *------------------------*/\n.location {\n  overflow: hidden;\n}\n\n\n.location .map {\n    float: right;\n    position: relative;\n    top: 11px;\n    margin-bottom: 10px;\n}\n\n/*-------------------------\n * footer\n *------------------------*/\nfooter {\n    width: 420px;\n    margin: 0 auto;\n    text-align: center;\n    margin-bottom: 100px;\n    font-size: 12px;\n}\n\n/*-----------------------------------------------\norganizers\n------------------------------------------------*/\n#organizers {\n  margin: 0 auto;\n  width: 940px;\n  margin-bottom: 50px;\n  text-align: center;\n  display: none;\n}\n\n#organizers h2 {\n  font-size: 34px;\n  line-height: 40px;\n  border-bottom: 2px solid #8FC740;\n  letter-spacing: -3px;\n}\n\n#organizers .organizers {\n  width: 170px;\n  display: inline-block;\n  text-align: center;\n  margin: 0 10px 20px;\n}\n\n#organizers .organizers img {\n  -webkit-border-radius: 50px;\n  -moz-border-radius: 50px;\n  border-radius: 50px;\n  width: 100px;\n}\n\n#organizers .organizers span {\n  display: block;\n  letter-spacing: -1px;\n}\n\n#organizers .organizers span.name {\n  margin-top: 5px;\n  font-size: 16px;\n  color: #464646;\n  font-weight: bold;\n}\n\n/* ==========================================================================\n   Media Queries\n   ========================================================================== */\n\n/* iphone */\n/*styles for 300 and up @ 16px!*/\n/* The max-width declaration below blocks this from ever working */\n@media only screen and (max-width: 739px){\n  body {\n  }\n  .container {\n    margin-top: -30px !important;\n  }\n  .sidebar {\n    display: none;\n  }\n  \n  .logo{\n    position: relative;\n    display: block;\n    top:28px;\n    width:320px;\n    margin: 0 auto;\n    padding: 30px 0;\n    background: rgba(255, 255, 255, .35) !important;\n  }\n\n  .logo img{width:300px;height:84px;}\n  .sponsor-shiv {\n    margin: 0 auto 60px;\n    display: block;\n  }\n  .sponsor-shiv img{ \n    width: 60px;\n    margin: 0px 14px 10px;\n  }\n  .speaker .zoom-container {\n      width: 280px;\n  }\n  .speaker .work-items{\n    width: 256px;\n    margin: 0 auto;\n  }\n  .sponsor {\n    display: none;\n  }\n.main{\n\n}\n\n  article {\n    width: 280px;\n    padding: 0 20px;\n    margin: 0 auto;\n  }\n\n  .about, .speaker, .schedule, .ticket, .location {\n    width: 280px !important;\n  }\n\n  .transparencyBG{\n    background: rgba(255, 255, 255, .35) !important;\n  }\n\n  .upperArrow{\n    width: 0;\n    height: 0;\n    position: relative;\n    top: 28px;\n    border-bottom: 60px solid white;\n    border-left: 160px solid transparent;\n    border-right: 160px solid transparent;\n    content: \" \";\n    margin: 0px auto ;\n    opacity: 0.35 !important;\n  }\n\n  .downerArrow{\n    width: 0;\n    height: 0;\n    position: relative;\n    top: -42px;\n    border-top: 60px solid white;\n    border-left: 160px solid transparent;\n    border-right: 160px solid transparent;\n    content: \" \";\n    margin: 0px auto ;\n    opacity: 0.35 !important;\n  }\n\n  .about{\n    position: relative;\n    top:-30px;\n  }\n \n  .ticket{\n    position: relative;\n    top: -10px;\n  }\n  .ticket-btn {\n    display: block;\n    cursor: pointer;\n    padding: 5px;\n    text-decoration: none;\n    text-align: center;\n  }\n\n  .ticket .btn {\n    display: block;\n    color: #476E1D;\n    cursor: pointer;\n    width: 280px !important;\n    height: 28px;\n    font-size: 18px !important;\n    padding: 5px 5px 22px;\n    background-color: #8FC740;\n    color: #fff;\n    text-decoration: none;\n    border-radius: 5px;\n    text-align: center;\n  }\n  .speaker{\n    margin-bottom:42px;\n  }\n  \n  .snsbar {\n    background: rgba(255, 255, 255, .35) !important;\n    margin: 28px auto 42px;\n    width: 320px;\n  }\n\n  .location {\n    text-align: center;\n  }\n\n  .location .map{\n    float:left;\n    margin-left: 6px;\n  }\n\n  /*--------------------------------------\n   * schedule\n   * ------------------------------------*/\n  .schedule li {\n    width: 300px;\n  }\n\n  footer {\n    width: 300px;\n    margin: 0 auto;\n    text-align: center;\n    margin-bottom: 100px;\n  }\n  /*-----------------------------------------------\n  organizers\n  ------------------------------------------------*/\n  #organizers {\n    margin: 0 auto;\n    width: 300px;\n    margin-bottom: 50px;\n    text-align: center;\n    display: block;\n  }\n}\n\n/* ---------------------------------\n  ipad\n  ---------------------------------*/\n@media only screen and (min-width: 740px) and (max-width: 979px){\n \n  .logo a{\n    color: #ffffff;\n    z-index: 1000;\n    font-weight: bold;\n  }\n  \n  .logo p{\n    position: relative;\n    padding : 6px 0 0 ;\n    left: -157px;\n    width: 740px;\n    color: #ffffff;\n    background-color: #8EC63F;\n  }\n\n  .container::before {\n    top: -100px;\n    border-bottom: 100px solid white;\n    border-left: 367px solid transparent;\n    border-right: 377px solid transparent;\n    content: \" \";\n    height: 0;\n    position: absolute;\n    width: 0px;\n    opacity: 0.35 !important;\n  }\n\n  .container {\n    width: 740px;\n    background: rgba(255, 255, 255, .35);\n    margin: 150px auto !important;\n    position: relative !important;\n  }\n\n  .container:after {\n    content: \"\";\n    width: 0;\n    position: absolute;\n    bottom: -100px;\n    border-top: 100px solid #fff;\n    border-left: 367px solid transparent;\n    border-right: 375px solid transparent;\n    opacity: 0.35 !important;\n  }\n  .sidebar {\n    width: 740px;\n    padding: 10px 0;\n    text-align: center;\n    position: absolute;\n    top: 152px;\n    background-color: #8FC740;\n    display: block;\n    z-index: 1000;\n  }\n    nav a {\n        display: inline;\n        margin-bottom: 10px;\n        font-size: 18px;\n\n        text-align: center;\n        text-decoration: none;\n\n        color: white;\n    }\n  .speaker .zoom-container {\n      width: 420px !important;\n  }\n\n  .sponsor {\n    width: 740px;\n    padding: 10px 0;\n    text-align: center;\n    position: absolute;\n    top: 210px;\n    display: block;\n    text-align: left;\n    margin-left: 20px;\n  }\n    .sponsor * {\n      display: inline;\n    }\n    .sponsor img {\n      width: 60px;\n      position: relative;\n      top:-8px;\n      margin: 0 8px;\n    }\n  .socalbutton{\n    display: inline;\n    position: relative;\n    top: -50px  \n  }\n\n  .socalbutton h2{display:none;}\n\n  .main {\n    width: 420px;\n    margin-left: 30px;\n    position: relative;\n    top: 60px;\n  }\n\n  .about {\n    padding-top: 240px;\n  }\n  .about, .speaker, .schedule, .ticket, .location {\n    width: 420px !important;\n    background: transparent !important;\n  }\n  .ticket{\n    display: none;\n  }\n  .logo {\n    margin-left: auto !important;\n    margin-right: auto !important;\n    width: 420px !important;\n    position: absolute;\n    left: 157px;\n    top: -30px;\n    display: block;\n  }\n  .logo-shiv, .sponsor-shiv {\n    display: none;\n  }\n  /*--------------------------------------\n   * sns bar\n   * ------------------------------------*/\n  .snsbar::before {\n    top: -100px;\n    border-bottom: 100px solid #E6E6E6;\n    border-left: 250px solid transparent;\n    border-right: 0px solid transparent;\n    content: \" \";\n    height: 0;\n    position: absolute;\n    width: 0px;\n  }\n  .snsbar {\n    width: 250px;\n    height: 83.3%;\n    position: absolute;\n    right: 0;\n    top: 320px;\n    background-color: #E6E6E6 !important;\n    margin: 0px;\n    padding: 0px;\n  }\n  .snsbar::after {\n    border-top: 113px solid #E6E6E6;\n    border-left: 250px solid transparent;\n    border-right: 0px solid transparent;\n    content: \" \";\n    height: 0;\n    position: absolute;\n    bottom: -113px;\n    width: 0px;\n  }\n\n  .socalbutton {\n    text-align: center;\n  }\n\n  .socalbutton span {\n    display: inline;\n  }\n\n/* ====================\n    INTERMEDIATE: Menu\n   ==================== */\n\n    nav a {\n        width: 27%;\n        margin-bottom: 0;\n        border-right: 1px solid #fff;\n        padding-right: 10px;\n    }\n\n    nav a:last-child {\n      border-right: none;\n    }\n\n    nav li:first-child a {\n        margin-left: 0;\n    }\n\n    nav li:last-child a {\n        margin-right: 0;\n    }\n\n/* ========================\n    INTERMEDIATE: IE Fixes\n   ======================== */\n\n    nav ul li {\n        display: inline;\n    }\n\n    .location .address {\n      float: left;\n      width: 160px;\n      position: relative;\n      top: 28px;\n    }\n    \n/*-----------------------------------------------\norganizers\n------------------------------------------------*/\n#organizers {\n  margin: 0 auto;\n  width: 720px;\n  margin-bottom: 50px;\n  text-align: center;\n  display: none;\n}\n\n}\n\n/*--------------------------------------------\n  desktop\n  ------------------------------------------*/\n@media screen and (min-width: 980px){\n  .container::before {\n    top: -140px !important;\n    border-bottom: 140px solid #fff !important;\n    border-left: 498px solid transparent !important;\n    border-right: 484px solid transparent !important;\n    content: \" \";\n    height: 0 !important;\n    position: absolute !important;\n    width: 0px !important;\n    opacity: 0.35 !important;\n  }\n\n  .container {\n    width: 980px !important;\n    background: rgba(255, 255, 255, .35);\n    margin: 170px auto !important;\n    position: relative !important;\n  }\n\n  .container:after {\n    content: \"\" !important;\n    width: 0 !important;\n    position: absolute;\n    bottom: -140px !important;\n    border-top: 140px solid #fff !important;\n    border-left: 498px solid transparent !important;\n    border-right: 484px solid transparent !important;\n    opacity: 0.35;\n  }\n\n  .logo {\n    margin-left: auto !important;\n    margin-right: auto !important;\n    width: 420px !important;\n    position: absolute;\n    left: 287px !important;\n    top: -60px !important;\n    display: block !important;\n  }\n  .logo-shiv, .sponsor-shiv {\n    display: none;\n  }\n  .main {\n    padding-top: 100px;\n    margin: 0 auto;\n    width: 420px !important;\n  }\n\n  .main article {\n    margin-left: -25px !important;\n  }\n\n\n  /*--------------------------------------\n   * sidebar\n   * ------------------------------------*/\n  .sidebar::before {\n    border-bottom: 96px solid #8FC740 !important;\n    border-left: 0px solid transparent !important;\n    border-right: 200px solid transparent !important;\n    content: \" \";\n    height: 0;\n    position: absolute !important;\n    top: -96px !important;\n    width: 0px !important;\n  }\n  .sidebar {\n    width: 200px !important;\n    position: absolute !important;\n    left: 0 !important;\n    top: 96px !important;\n    background-color: #8FC740 !important;\n    display: block;\n    text-align: left;\n  }\n  .sidebar::after {\n    border-top: 96px solid #8FC740;\n    border-left: 0px solid transparent;\n    border-right: 200px solid transparent;\n    content: \" \";\n    height: 0;\n    position: absolute;\n    bottom: -96px;\n    width: 0px;\n  }\n  /*--------------------------------------\n   * sponsor\n   * ------------------------------------*/\n  .sponsor::before {\n    border-bottom: 96px solid #EAEAEA !important;\n    border-left: 200px solid transparent !important;\n    border-right: 0px solid transparent !important;\n    content: \" \";\n    height: 0;\n    position: absolute !important;\n    top: -96px !important;\n    width: 0px !important;\n  }\n  .sponsor {\n    width: 200px !important;\n    position: absolute !important;\n    left: 0 !important;\n    top: 500px !important;\n    background-color: #EAEAEA !important;\n    display: block;\n    height: 77% !important;\n    margin: 0 !important;\n  }\n  .sponsor::after {\n    border-top: 96px solid #EAEAEA;\n    border-left: 0px solid transparent;\n    border-right: 200px solid transparent;\n    content: \" \";\n    height: 0;\n    position: absolute;\n    bottom: -96px;\n    left: 0;\n    width: 0px;\n  }\n    .sponsor h2 {\n      display: block !important;\n    }\n\n    .sponsor .contents {\n      text-align: center !important;\n    }\n    .sponsor img {\n      display: block !important;\n      width: 90px;\n      margin: 30px auto !important;\n    }\n\n    nav {\n      \n    }\n    nav a {\n        width: 65%;\n        display: block !important;\n        padding: 5px 2px;\n\n        text-align: center;\n        text-decoration: none;\n\n        color: white;\n        border: none;\n        border-bottom: 2px dotted #fff;\n        margin: 0 auto;\n    }\n     nav a:last-child {\n        border-bottom: none;\n    }\n    .sidebar ol {\n      display: block;\n      list-style-type: none;\n    }\n    \n    .socalbutton {\n      width:200px;\n      text-align: center;\n    }\n\n    .socalbutton span {\n      margin: 2px auto;\n      display:block;\n    }\n\n  /*--------------------------------------\n   * sns bar\n   * ------------------------------------*/\n  .snsbar::before {\n    border-bottom: 140px solid #E6E6E6 !important;\n    border-left: 250px solid transparent !important;\n    border-right: 0px solid transparent !important;\n    content: \" \" !important;\n    height: 0 !important;\n    position: absolute !important;\n    top: -140px !important;\n    width: 0px !important;\n  }\n  .snsbar {\n    width: 250px !important;\n    position: absolute !important;\n    right: 0 !important;\n    height: 87.9%;\n    top: 140px !important;\n    background-color: #E6E6E6 !important;\n    margin: 0px !important;\n    padding: 0px !important;\n  }\n  .snsbar::after {\n    border-top: 140px solid #E6E6E6 !important;\n    border-left: 250px solid transparent !important;\n    border-right: 0px solid transparent !important;\n    content: \" \" !important;\n    height: 0 !important;\n    position: absolute !important;\n    bottom: -140px !important;\n    width: 0px !important;\n  }\n\n  .about {\n    background: transparent !important;\n    padding: 0px !important;\n    width: 420px !important;\n  }\n\n  .location .address {\n    float: left;\n    width: 160px;\n    position: relative;\n    top: 28px;\n  }\n  \n  .ticket{\n    display: none;\n  }\n}\n\n\n\n\n\n/* ==========================================================================\n   Helper classes\n   ========================================================================== */\n\n.clearfix:before,\n.clearfix:after {\n    content: \" \";\n    display: table;\n}\n\n.clearfix:after {\n    clear: both;\n}\n\n.clearfix {\n    *zoom: 1;\n}\n",
+			"map",
+			"location",
+			"ipad",
+			"logo",
+			"time",
+			";}",
+			"ipad",
+			"logo p",
+			"time",
+			"logo p",
+			"count",
+			"ipad",
+			"orga",
+			"sonsor-shiv",
+			"hover",
+			"organizer",
+			"organ",
+			"organizer",
+			"zoom-con",
+			";\n",
+			"width=\"150\"",
+			"footer",
+			"count",
+			"snsbar",
+			"ipad",
+			";\n",
+			"155px",
+			"work-item",
+			"sidebar",
+			"ticket",
+			";\n",
+			"logo",
+			"schedule",
+			"\nschedule",
+			"schedule",
+			"sponsor",
+			"logo",
+			"article",
+			"h2",
+			"snsbar",
+			"sponsor",
+			"article",
+			"articlr",
+			"article\narticle",
+			"article",
+			".main",
+			"article",
+			"h2",
+			"speaker",
+			"article",
+			"about",
+			"=\"main",
+			"article",
+			"h2",
+			"nav",
+			"nav a\n\nnav",
+			"article",
+			"nav",
+			"sidebar",
+			"socal",
+			"soc",
+			"social",
+			"sponsor",
+			"nav",
+			"sidebar",
+			"sidebar b",
+			"b",
+			".b",
+			"sidebar",
+			"sidebar b",
+			".nav",
+			"nav",
+			"logo",
+			"source code pro",
+			"h2",
+			"weight",
+			"0.3",
+			"3.0",
+			"font:",
+			"font",
+			"opacity",
+			"opacity\n\n\nopacity",
+			"footer",
+			"sharethis",
+			"transition",
+			"nav",
+			".sidebar",
+			"sidebar",
+			".b",
+			"b",
+			"desk",
+			"nav",
+			"height: ",
+			"height: 80px",
+			"nav",
+			"nav\nnav",
+			"nav",
+			".nav",
+			"nav\n\nnav",
+			"@media",
+			".center",
+			"center",
+			"@media",
+			"container\n\ncontainer",
+			"container\n.4",
+			".4\n.4",
+			".4\n.4\n.4",
+			".4\n\n.4",
+			".4",
+			"0.3",
+			"0.4",
+			"container",
+			"\nopacity:",
+			"\nopacity",
+			"opacity: 0.4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.510664797291,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.gjslint_result_view":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 263.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true
+}
