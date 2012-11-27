@@ -820,6 +820,8 @@ organizers
       color: white;
   }
   .registerButton{
+    position: relative;
+    top: -2px;
     width: 90px;
   }
 
