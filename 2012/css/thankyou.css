@@ -637,7 +637,7 @@ organizers
     border-right: 160px solid transparent;
     content: " ";
     margin: 0px auto ;
-    opacity: 0.25 !important;
+    opacity: 0.35 !important;
   }
 
   .downerArrow{
@@ -650,7 +650,7 @@ organizers
     border-right: 160px solid transparent;
     content: " ";
     margin: 0px auto ;
-    opacity: 0.25 !important;
+    opacity: 0.35 !important;
   }
 
   .speaker .zoom-container{
@@ -699,7 +699,7 @@ organizers
   }
   
   .snsbar {
-    background: rgba(255, 255, 255, .35) !important;
+    background: rgba(255, 255, 255, .30) !important;
     margin: 28px auto 42px;
     width: 320px;
   }
@@ -781,7 +781,7 @@ organizers
     height: 0;
     position: absolute;
     width: 0px;
-    opacity: 0.25 !important;
+    opacity: 0.3 !important;
   }
 
   .container {
@@ -799,7 +799,7 @@ organizers
     border-top: 100px solid #fff;
     border-left: 367px solid transparent;
     border-right: 375px solid transparent;
-    opacity: 0.25 !important;
+    opacity: 0.3 !important;
   }
   .sidebar {
     width: 740px;
@@ -987,7 +987,7 @@ organizers
     height: 0 !important;
     position: absolute !important;
     width: 0px !important;
-    opacity: 0.25 !important;
+    opacity: 0.3 !important;
   }
 
   .container {
@@ -1005,7 +1005,7 @@ organizers
     border-top: 140px solid #fff !important;
     border-left: 498px solid transparent !important;
     border-right: 484px solid transparent !important;
-    opacity: 0.25;
+    opacity: 0.3;
   }
 
   .logo {
