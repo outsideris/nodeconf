@@ -863,8 +863,8 @@ organizers
     top: 60px;
   }
 
-  .thanks {
-    padding-top: 210px;
+  .about {
+    padding-top: 190px;
   }
   .about, .thanks, .speaker, .schedule, .ticket, .location {
     width: 420px !important;
