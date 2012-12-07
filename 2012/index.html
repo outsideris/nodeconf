@@ -12,7 +12,7 @@
 
         <link media="screen" rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400|Codystar:400" />
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?20121107">
+        <link rel="stylesheet" href="css/thankyou.css?20121107">
         <link rel="stylesheet" href="css/jquery.jtweetsanywhere-1.3.1.css?20121104" />
         <link rel="stylesheet" href="css/jquery.qtip.min.css?20121104">
         <!--[if IE 8]>
@@ -27,16 +27,17 @@
         <div class="container tran">
           <div class="logo ">
             <img src="/2012/img/logo.png" width="430" height="121">
-            <p><a href="http://onoffmix.com/event/10254" target="_blank" class="ticket-btn">Node.js Conference in Korea<br/> <time id="countdown">Thanks, See you next year</time></a></p>
+            <p><a href="http://onoffmix.com/event/10254" target="_blank" class="ticket-btn">Node.js Conference in Korea<br/> <time id="countdown">See you next Conference</time></a></p>
           </div>
           <div class="sidebar b">
             <nav>
+              <!--<a href="#thanks">THANKS</a>-->
               <a href="#about">ABOUT</a>
               <a href="#speaker">SPEAKERS</a>
               <a href="#schedule">SCHEDULE</a>
               <a href="#location">LOCATION</a>
-              <a href="#dummyOrganizers" id="menu_organ">ORGANIZERS</a>
-              <a href="http://onoffmix.com/event/10254" target="_blank"><img src="/2012/img/registerButton.png"/></a>
+              <a href="#organizer" >ORGANIZERS</a>
+              <a href="javascript:alert('등록 기간이 아닙니다.')"><img src="/2012/img/registerButton.png" class="registerButton"/></a>
             </nav>
           </div>
           <div class="sponsor">
@@ -61,6 +62,15 @@
             </div>
           </div>
           <div class="main b">
+           <!-- <article id="thanks" class= "thanks transparencyBG">
+              <h2>Thanks</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>-->
             <article class="about transparencyBG" id="about">
               <!--<div class="logo-shiv">
                 <img src="/2012/img/logo.png" width="300">
@@ -76,17 +86,16 @@
                   <a href="http://www.insightbook.co.kr" target="_blank"><img src="/2012/img/insight.png" alt="nipa" /></a>
                 </div>
               </div>
-              <h2>About</h2>
-              <p><b>2012년 11월 20일</b>, 국내에서는 처음으로 <a href="http://nodejs.org/" target="_blank">Node.js</a> 컨퍼런스 PlayNode가 열립니다. 본 행사는 Node.js Core Committer와 Contributor를 비롯하여 국내외 연사들의 경험과 노하우를 듣고 다양한 이야기를 나눌 수 있는 자리입니다. 또한, 여러 분야의 사람들이 한 자리에 모일 수 있는 즐거운 개발자 축제같은 행사이기도 합니다. </p>
+              <h2 class="rollup">About <a href="#top"><span>top</span></a></h2>
+              <p><b>2012년 11월 20일</b>, 국내 첫 <a href="http://nodejs.org/" target="_blank">Node.js</a> 컨퍼런스 PlayNode가 열립니다. 본 행사는 Node.js Core Committer와 Contributor를 비롯하여 국내외 연사들의 경험과 노하우를 듣고 다양한 이야기를 나눌 수 있는 자리입니다. 또한, 여러 분야의 사람들이 한 자리에 모일 수 있는 즐거운 개발자 축제같은 행사이기도 합니다.</p>
               <hr>
-              <p class="en">Node.js korea conference will be held on 20th of November. Also, node.js core committer and contributor will join the conference. We are preparing for many joyful sessions. Details about conference will be open soon. <br> Stay tuned! </p>
+              <p class="en">Node.js korea conference will be held on 20th of November. Also, node.js core committer and contributor will join the conference. We are preparing for many joyful sessions. Details about conference will be open soon. </br> Stay tuned! </p>
             </article>
             <div class="downerArrow"></div>
 
             <article class="ticket" id="ticket">
-              <a href="http://onoffmix.com/event/10254" target="_blank" class="btn"><img src="/2012/img/registerButton.png"/> 티켓 구매하기</a>
+              <a href="javascript:alert('등록 기간이 아닙니.')" class="btn"><img src="/2012/img/registerButton.png"/> 티켓 구매하기</a>
             </article>
-
 
             <div class="upperArrow"></div>
             <article class="speaker transparencyBG" id="speaker">
@@ -96,29 +105,33 @@
               </div>
 
               <ul class="work-items">
-                <li><a href="#" data-id="aa"><img src="/2012/img/profile/aa.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="bb"><img src="/2012/img/profile/bb.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="cc"><img src="/2012/img/profile/cc.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="a"><img src="/2012/img/profile/nanhapark.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="d"><img src="/2012/img/profile/rhiokim.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="b"><img src="/2012/img/profile/jeongsangbaek.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="c"><img src="/2012/img/profile/kyungw00k.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="e"><img src="/2012/img/profile/acidsound.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="f"><img src="/2012/img/profile/susukang98.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="h"><img src="/2012/img/profile/Outsideris.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="g"><img src="/2012/img/profile/bae.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="i"><img src="/2012/img/profile/bee.jpg" width="72" height="72" alt="" title=""></a></li>
-                <li><a href="#" data-id="j"><img src="/2012/img/profile/rhea.jpg" width="72" height="72" alt="" title=""></a></li>
+                <li><a href="#" data-id="aa"><img src="/2012/img/profile/aa.jpg"></a></li>
+                <li><a href="#" data-id="bb"><img src="/2012/img/profile/bb.jpg"></a></li>
+                <li><a href="#" data-id="cc"><img src="/2012/img/profile/cc.jpg"></a></li>
+                <li><a href="#" data-id="a"><img src="/2012/img/profile/nanhapark.jpg"></a></li>
+                <li><a href="#" data-id="d"><img src="/2012/img/profile/rhiokim.jpg"></a></li>
+                <li><a href="#" data-id="b"><img src="/2012/img/profile/jeongsangbaek.jpg"></a></li>
+                <li><a href="#" data-id="c"><img src="/2012/img/profile/kyungw00k.jpg"></a></li>
+                <li><a href="#" data-id="e"><img src="/2012/img/profile/acidsound.jpg"></a></li>
+                <li><a href="#" data-id="f"><img src="/2012/img/profile/susukang98.jpg"></a></li>
+                <li><a href="#" data-id="h"><img src="/2012/img/profile/Outsideris.jpg"></a></li>
+                <li><a href="#" data-id="g"><img src="/2012/img/profile/bae.jpg"></a></li>
+                <li><a href="#" data-id="i"><img src="/2012/img/profile/bee.jpg"></a></li>
+                <li><a href="#" data-id="j"><img src="/2012/img/profile/rhea.jpg"></a></li>
               </ul>
             </article>
             <div class="downerArrow"></div>
+
+            
+            
             <article class="schedule" id="schedule">
               <h2 class="rollup">Schedule <a href="#top"><span>top</span></a></h2>
               <h3>KEYNOTE</h3>
               <ul>
                 <li>
                   <p class="time">AM 10:00 - <br />AM 10:40</p>
-                  <p class="info">Keynote<small>Isaac Z. Schlueter</small></p>
+                  <p class="info">Keynote<small>Isaac Z. Schlueter</small><a href="https://dl.dropbox.com/u/3685/presentations/streams2/streams2-ko.pdf" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a></p>
+                  
                 </li>
                 <li>
                   <p class="time">AM 11:00 - <br />AM 11:40</p>
@@ -133,12 +146,12 @@
               <ul>
                 <li>
                   <p class="time">PM 2:00 - <br />PM 2:40</p>
-                  <p class="atrack track">Node.js 의 본질<small>- 박난하(나나하치, KTH)</small></p>
+                  <p class="atrack track">Node.js 의 본질<small>- 박난하(나나하치, KTH)</small><a href="https://github.com/nanha/sock.nodeman" target="_blank"><img src="/2012/img/edit_page.png"/>소스자료1</a><a href="https://github.com/nanha/nodeconf.kr-2012" target="_blank"><img src="/2012/img/edit_page.png"/>소스자료2</a></p>
                   <p class="btrack track">모바일 게임 서버 개발을 하면서 만난 node.js <small>- 배성준(한글이, big4games)</small></p>
                 </li>
                 <li>
                   <p class="time">PM 2:50 - <br />PM 3:20</p>
-                  <p class="atrack track">When hardware met nodeJS <small>- 박경욱(경욱, 다음커뮤니케이션)</small></p>
+                  <p class="atrack track">When hardware met nodeJS <small>- 박경욱(경욱, 다음커뮤니케이션)</small><a href="http://kyungw00k.github.com/nodeconf.kr-2012/" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a><a href="https://github.com/kyungw00k/nodeconf.kr-2012/" target="_blank"><img src="/2012/img/edit_page.png"/>소스자료</a></p>
                   <p class="btrack track">Operational Transform in Node.js <small>- 홍영택(노사모, 사이냅소프트)</small></p>
                 </li>
               </ul>
@@ -146,26 +159,25 @@
               <ul>
                 <li>
                   <p class="time">PM 3:50 - <br />PM 4:20</p>
-                  <p class="atrack track">MMORPG에서의 node.js를 이용한 커뮤니티 설계 <small>- 김익중(Rhea, 드래곤플라이)</small></p>
-                  <p class="btrack track">정적 페이지 기반 블로그 엔진 <small>- 하루프레스 - 김양원(리오, KTH)</small></p>
+                  <p class="atrack track">MMORPG에서의 node.js를 이용한 커뮤니티 설계 <small>- 김익중(Rhea, 드래곤플라이)</small><a href="http://www.slideshare.net/RheaStrike/rhea-mmo-nodeforshare" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a></p>
+                  <p class="btrack track">정적 페이지 기반 블로그 엔진 <small>- 하루프레스 - 김양원(리오, KTH)</small><a href="http://www.slideshare.net/rhio.kim/nodejs-15277380" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a></p>
                 </li>
                 <li>
                   <p class="time">PM 4:30 - <br />PM 5:00</p>
-                  <p class="atrack track">Node.js &amp; Web Service <small>- 김범진(beejei, 다이렉트미디어)</small></p>
-                  <p class="btrack track">Meteor로 만들어보는 Modern Web Application <small>- 이재호(spectrum, Appsoulute)</small></p>
+                  <p class="atrack track">Node.js & Web Service <small>- 김범진(beejei, 다이렉트미디어)</small><a href="http://www.slideshare.net/beejei/beejei-nodejs-web-service" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a><a href="https://github.com/beejei/ExpressHelp" target="_blank"><img src="/2012/img/edit_page.png"/>소스자료</a></p>
+                  <p class="btrack track">Meteor로 만들어보는 Modern Web Application <small>- 이재호(spectrum, Appsoulute)</small><a href="https://docs.google.com/presentation/pub?id=17BKyq1-bcvKOZflhJrNZzZIqs2LIqN9QRM7XvHuR31Q&start=false&loop=false&delayms=3000#slide=id.p" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a><a href="https://github.com/acidsound/sogon2x" target="_blank"><img src="/2012/img/edit_page.png"/>소스자료</a></p>
                 </li>
               </ul>
               <h3>BREAK TIME</h3>
               <ul>
                 <li>
                   <p class="time">PM 5:30 - <br />PM 6:00</p>
-                  <p class="atrack track">소셜게임 서버 개발 관점에서 본 node.js의 장/단점 과 주의점 <small>- 백정상(해키스트, 블루윈드)</small></p>
-                  <p class="btrack track">Learning Dtrace <small>- 변정훈(Outsider, NBP)</small></p>
+                  <p class="atrack track">소셜게임 서버 개발 관점에서 본 node.js의 장/단점 과 주의점 <small>- 백정상(해키스트, 블루윈드)</small><a href="http://www.slideshare.net/jeongsangbaek/nodejs-15279050" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a></p>
+                  <p class="btrack track">Learning Dtrace <small>- 변정훈(Outsider, NBP)</small><a href="http://www.slideshare.net/rockdoli/learning-dtrace?from=new_upload_email" target="_blank"><img src="/2012/img/edit_notes.png"/>발표자료</a></p>
                 </li>
               </ul>
-              <p>* 참조: 발표 순서는 조정될 수 있습니다.</p>
+              
             </article>
-
             <article class="location" id="location">
               <div class="address">
                 <h2 class="rollup">Location <a href="#top"><span>top</span></a></h2>
@@ -177,6 +189,127 @@
                 </a>
               </div>
             </article>
+
+            <article class="organizer" id="organizer">
+              <h2 class="rollup">Organizers<a href="#top"><span>top</span></a></h2>
+              <div id="dummyOrganizers"></div>
+                <div id="organizers">
+                  <div class="organizers" data-tooltip='<span class="name">채수원</span>
+                    <span class="nickname">(doortts / NHN)</span>
+                    <span></span>애자일 SW 개발 문화와 실천법을 확산하기 위해 수년 전 부터 다양한 분야에서 여러 일을 해오고 있습니다. 현재 NHN에서 nFORGE 프로젝트를 진행하고 있으며 개발자들에게 도움이 되는 좋은 SW로 만들어내기 위해 온 힘을 쏟고 있습니다. 그리고 여름으로 가는 문 blog.doortts.com 이라는 기술 블로그를 운영하고 있습니다.'>
+                    <img src="/2012/img/organizers/doortts.png">
+                    <a href="http://twitter.com/doortts" target="_blank">@doortts</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">장정화</span>
+                    <span class="nickname">(Hellena / 프리랜서)</span>
+                    <span></span>애자일 코치에 관심을 가지고 공부를 하고 있습니다. 의사소통을 더욱 잘 하는 방법과 도구에 대해 고민하고, 이와 관련하여 요즘 주로 하고있는 일은 "멘토링, 코칭, 퍼실리테이팅, 행사진행, 즉흥연기, 협업을 위한 프랙티스 연구" 등 입니다. 늘 재미난것과 배우는것을 좋아하고, 항상 변화를 시도하고 있습니다.'>
+                    <img src="/2012/img/organizers/hellena.jpeg">
+                    <a href="http://twitter.com/hellena_Jang" target="_blank">@hellena_Jang</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">박난하</span>
+                    <span class="nickname">(나나하치 / KTH)</span>
+                    <span>/span>저는 지루한 삶을 싫어합니다. 항상 새로운 것을 찾아다닙니다. 그래서 내 몸은 항상 피곤하고, 남들에게 눈총을 사기도 합니다. 하지만, 이런 삶이 즐겁습니다. 앞으로 평생 개발자가 되어 후배들에게 정보를 공유하고 싶은 박난하 입니다.'>
+                    <img src="/2012/img/organizers/nanhapark.jpeg">
+                    <a href="http://twitter.com/nanhapark" target="_blank">@nanhapark</a><
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">iMaZiNe</span>
+                    <span class="nickname">(iMaZiNe / Unioh)</span>
+                    <span></span>무엇이든 만드는 것을 좋아하는 철부지 입니다. node.js 기반의 개인 프로젝트를 진행중에 있으며, Codable Designer 가 아닌 Designable Coder 로 불리기를 희망합니다. 사진작업은 평생을 투자하는 마라톤 Project 입니다.'>
+                    <img src="/2012/img/organizers/imazine.jpeg">
+                    <a href="http://twitter.com/imazine80" target="_blank">@imazine80</a>
+
+                  </div>
+                  <div class="organizers" data-tooltip='
+                    <span class="name">이현경</span>
+                    <span class="nickname">(kate / NLK)</span>사람들이 서로 대화하는 방식, 의사소통하는 것을 옆에서 지켜보길 좋아합니다. 저자신이 자발적인 분위기에서 동기부여가 가장 잘 된다는 것을 이번 컨퍼런스 오거나이저로 참여하면서 깨달았습니다. '>
+                  <img src="/2012/img/organizers/kate.jpeg">
+                  <a href="http://twitter.com/useekate" target="_blank">@useekate</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">김덕홍</span>
+                    <span class="nickname">(insanehong / NTS)</span>
+                    <span></span>"오랜만에 만나서 저녁이나 같이 먹자"라는 말을 아무런 의심없이 믿어버린 순수한 개발자 입니다. 그 설렁탕 한그릇이 화근이였.... 잠시 눈물좀 닦고... 사람을 만나는 것을 좋아하고 웃고 떠드는 것을 좋아하는 국내에서 찾기 힘든 피쳐폰을 사용하는 개발자 입니다.'>
+                    <img src="/2012/img/organizers/insanehong.jpeg">
+                    <a href="http://twitter.com/insanehong" target="_blank">@insanehong</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">석종일</span>
+                    <span class="nickname">(daclouds / Neowiz)</span>
+                    <span></span>"서당개 삼년이면 풍월을 읊는다"라고 하나라도 주워 들으려고 이곳저곳 따라다니고 있구요. 이것저것 주워들은걸 써먹다보니 하는 일도 프론트엔드-백엔드 구분없이 했던 것 같습니다. 특별히 잘하는게 없다는게 함정 입니다'>
+                    <img src="/2012/img/organizers/daclouds.jpeg">
+                    <a href="http://twitter.com/daclouds_" target="_blank">@daclouds_</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">이응준</span>
+                    <span class="nickname">(NHN)</span>
+                    <span></span>학창 시절 게임개발자의 꿈을 안고 살아왔는데 졸업하니 웹개발자가 되어서 그걸로 밥먹고 살고 있습니다. node.js는 채수원님 덕에 올 봄에 접해서 같이 <b>개발자노트</b>(http://github.com/nforge/devnote)를 만들었습니다. 할 줄 아는 건 코딩밖에 없지만 잘 부탁드립니다.'>
+                    <img src="/2012/img/organizers/semtlnori.jpeg">
+                    <a href="http://twitter.com/semtlnori" target="_blank">@semtlnori</a>
+
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">정재필</span>
+                    <span class="nickname">(J2P / SMARTSTUDY)</span>
+                    <span></span>새로운것에 관심이 많은 프론트앤드 개발자 입니다. node.js 는 javascript 를 사용할수 있다는 점이 맘에 들어서 개인적으로 살짝살짝 공부하고 있습니다.'>
+                    <img src="/2012/img/organizers/j2p.jpeg">
+                    <a href="http://twitter.com/J2P_" target="_blank">@J2P_</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">김경열</span>
+                    <span class="nickname">(chitacan / ahnlab)</span>
+                    <span></span>뭐든지 작고 심플함을 추구하는 네이티브 앱 개발자 입니다. 회사에서는 자바로 여러 문제들을 해결하는데 시간을 쏟고 있으며, 최근에는 node.js와 python을 활용해 머릿속으로만 존재해 왔던 아이디어들을 세상밖으로 끄집어 내기위해 애쓰고 있습니다.'>
+                    <img src="/2012/img/organizers/chitacan.jpeg">
+                    <a href="http://twitter.com/chitacan" target="_blank">@chitacan</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">김호연</span>
+                    <span class="nickname">(네오플)</span>
+                    <span></span>자신이 좋아하는 것에 무한 애정을 쏟으면서 최근에 Node.js에 무한 애정을 쏟고 있는 1인 입니다. 게임 회사인 네오플(국내 게임 회사 중 제일 좋아요 이건 인정)에서 개발자로 살아가고 있고 인생을 즐기고 있는 중 입니다.'>
+                    <img src="/2012/img/organizers/mrfoundation21.jpg">
+                    <a href="http://twitter.com/mrfoundation21" target="_blank">@mrfoundation21</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">변치훈</span>
+                    <span class="nickname">(zziuni / NEXR)</span>
+                    <span></span>
+        우연히 오프모임에서 연결되어서 작게나마 역활을 맞아볼까 합류했습니다. 비주류 개발 환경이지만 재미난 자리되었으면 합니다.'>
+                    <img src="/2012/img/organizers/zziuni.jpeg">
+                    <a href="http://twitter.com/zziuni" target="_blank">@zziuni</a>
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">김주회</span>
+                    <span class="nickname">(juhoi / 사이버한국외대)</span>
+                    <span></span>전산을 전공한 후 서버 관리, 네트워크 관리, 프로그램 개발 등의 업무를 구분 없이 해오다 그마저 개발에서 손을 놓게 된... 그래도 "프로그래머" 라고 불리고 싶은... 전산인입니다. 1년여 전부터 Node.js와 Hybrid App 개발에 꾸준히 관심을 가지고 있습니다. 느리더라도 멀리 가고 싶습니다.'>
+                    <img src="/2012/img/organizers/juhoi.jpg">
+                    <a href="http://twitter.com/ByJuhoi" target="_blank">@ByJuhoi</a>
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">김대근</span>
+                    <span class="nickname">(NexR)</span>
+                    <span></span>프론트엔드보다 백엔드에 더 관심이 많고 현재는 하둡에 관심이 많아서 관련 업체에서 근무 중인 개발자입니다. NodeJS는 무엇보다도 다른 언어보다 높은 생산성을 요하는 프로토타이핑이나 파서제작용으로 사용하고 있습니다.'>
+                    <img src="/2012/img/organizers/geekdani.jpeg">
+                    <a href="http://twitter.com/GeekDani" target="_blank">@GeekDani</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">박수철</span>
+                    <span class="nickname">(POD / Spoqa)</span>
+                    <span></span>개발자를 꿈꾸는 일반인입니다!!!'>
+                    <img src="/2012/img/organizers/pod.jpg">
+                    <a href="http://twitter.com/masterguru9" target="_blank">@masterguru9</a>
+                    
+                  </div>
+                  <div class="organizers" data-tooltip='<span class="name">변정훈</span>
+                    <span class="nickname">(Outsider / NBP)</span>
+                    <span></span>새로운 것이나 도전적인 것을 좋아하고 항상 즐겁게 코딩을 하려고 하는 프로그래머입니다. 아는 내용을 공유하는 데도 많은 즐거움을 느껴서 블로그(http://blog.outsider.ne.kr)도 운영하고 있습니다.'>
+                    <img src="/2012/img/organizers/outsideris.jpeg">
+                    <a href="http://twitter.com/outsideris" target="_blank">@outsideris</a>
+                    
+                  </div>
+              </div>
+            </article>
+
+
+            
           </div>
           <div class="upperArrow"></div>
           <div class="snsbar b">
@@ -189,124 +322,26 @@
         </div>
         <footer>
           <img class="center" src="/2012/img/foot-logo.png" alt="playnode logo" />
-          <p>Copyright &#169; <a href='http://facebook.com/octoberskyjs' target='_blank'>octoberskyjs</a> all right reserved 2012, Designed by <a href="https://twitter.com/iMaZiNe80" target="_blank">iMaZiNe</a>, Work by <a href="http://about.me/nanha" target="_blank">nanhapark</a>, <a href="http://twitter.com/j2p_" target="_blank">j2p</a>, <a href="https://twitter.com/Outsideris" target="_blank">Outsider</a></p>
+          <p>Copyright © <a href='http://facebook.com/octoberskyjs' target='_blank'>octoberskyjs</a> all right reserved 2012, Designed by <a href="https://twitter.com/iMaZiNe80" target="_blank">iMaZiNe</a>, Work by <a href="http://about.me/nanha" target="_blank">nanhapark</a>, <a href="http://twitter.com/j2p_" target="_blank">j2p</a>, <a href="https://twitter.com/Outsideris" target="_blank">Outsider</a></p>
           <p>본 행사는 커뮤니티를 주축으로 다양한 분야의 자원봉사자들의 힘으로 진행되고 있으며 그 노력을 응원하는 NHN, SK Planet, SMARTSTUDY, insight출판사, 에이콘출판사 그리고 정보통신산업진흥회(NIPA)의 도움을 받고 있습니다.</p>
+          <p style="color:orange;">본 사이트는 IE9 이하 버전을 지원하지 않습니다.</p>
         </footer>
 
-        <div id="dummyOrganizers"></div>
-        <div id="organizers">
-          <h2 class="rollup">Organizers <a href="#top"><span>top</span></a></h2>
-          <div class="organizers" data-tooltip="애자일 SW 개발 문화와 실천법을 확산하기 위해 수년 전 부터 다양한 분야에서 여러 일을 해오고 있습니다. 현재 NHN에서 nFORGE 프로젝트를 진행하고 있으며 개발자들에게 도움이 되는 좋은 SW로 만들어내기 위해 온 힘을 쏟고 있습니다. 그리고 여름으로 가는 문 blog.doortts.com 이라는 기술 블로그를 운영하고 있습니다.">
-            <img src="/2012/img/organizers/doortts.png">
-            <span class="name">채수원</span>
-            <span class="nickname">(doortts / NHN)</span>
-            <span><a href="http://twitter.com/doortts" target="_blank">@doortts</a></span>
-          </div>
-          <div class="organizers" data-tooltip="애자일 코치에 관심을 가지고 공부를 하고 있습니다. 의사소통을 더욱 잘 하는 방법과 도구에 대해 고민하고, 이와 관련하여 요즘 주로 하고있는 일은 '멘토링, 코칭, 퍼실리테이팅, 행사진행, 즉흥연기, 협업을 위한 프랙티스 연구' 등 입니다. 늘 재미난것과 배우는것을 좋아하고, 항상 변화를 시도하고 있습니다.">
-            <img src="/2012/img/organizers/hellena.jpeg">
-            <span class="name">장정화</span>
-            <span class="nickname">(Hellena / 프리랜서)</span>
-            <span><a href="http://twitter.com/hellena_Jang" target="_blank">@hellena_Jang</a></span>
-          </div>
-          <div class="organizers" data-tooltip="저는 지루한 삶을 싫어합니다. 항상 새로운 것을 찾아다닙니다. 그래서 내 몸은 항상 피곤하고, 남들에게 눈총을 사기도 합니다. 하지만, 이런 삶이 즐겁습니다. 앞으로 평생 개발자가 되어 후배들에게 정보를 공유하고 싶은 박난하 입니다.">
-            <img src="/2012/img/organizers/nanhapark.jpeg">
-            <span class="name">박난하</span>
-            <span class="nickname">(나나하치 / KTH)</span>
-            <span><a href="http://twitter.com/nanhapark" target="_blank">@nanhapark</a></span>
-          </div>
-          <div class="organizers" data-tooltip="무엇이든 만드는 것을 좋아하는 철부지 입니다. node.js 기반의 개인 프로젝트를 진행중에 있으며, Codable Designer 가 아닌 Designable Coder 로 불리기를 희망합니다. 사진작업은 평생을 투자하는 마라톤 Project 입니다.">
-            <img src="/2012/img/organizers/imazine.jpeg">
-            <span class="name">iMaZiNe</span>
-            <span class="nickname">(iMaZiNe / Unioh)</span>
-            <span><a href="http://twitter.com/imazine80" target="_blank">@imazine80</a></span>
-          </div>
-          <div class="organizers" data-tooltip="사람들이 서로 대화하는 방식, 의사소통하는 것을 옆에서 지켜보길 좋아합니다. 저자신이 자발적인 분위기에서 동기부여가 가장 잘 된다는 것을 이번 컨퍼런스 오거나이저로 참여하면서 깨달았습니다. ">
-            <img src="/2012/img/organizers/kate.jpeg">
-            <span class="name">이현경</span>
-            <span class="nickname">(kate / NLK)</span>
-            <span>&nbsp;</span>
-          </div>
-          <div class="organizers" data-tooltip="'오랜만에 만나서 저녁이나 같이 먹자'라는 말을 아무런 의심없이 믿어버린 순수한 개발자 입니다. 그 설렁탕 한그릇이 화근이였.... 잠시 눈물좀 닦고... 사람을 만나는 것을 좋아하고 웃고 떠드는 것을 좋아하는 국내에서 찾기 힘든 피쳐폰을 사용하는 개발자 입니다.  ">
-            <img src="/2012/img/organizers/insanehong.jpeg">
-            <span class="name">김덕홍</span>
-            <span class="nickname">(insanehong / NTS)</span>
-            <span><a href="http://twitter.com/insanehong" target="_blank">@insanehong</a></span>
-          </div>
-          <div class="organizers" data-tooltip="'서당개 삼년이면 풍월을 읊는다'라고 하나라도 주워 들으려고 이곳저곳 따라다니고 있구요. 이것저것 주워들은걸 써먹다보니 하는 일도 프론트엔드-백엔드 구분없이 했던 것 같습니다. 특별히 잘하는게 없다는게 함정 입니다;">
-            <img src="/2012/img/organizers/daclouds.jpeg">
-            <span class="name">석종일</span>
-            <span class="nickname">(daclouds / Neowiz)</span>
-            <span><a href="http://twitter.com/daclouds_" target="_blank">@daclouds_</a></span>
-          </div>
-          <div class="organizers" data-tooltip="학창 시절 게임개발자의 꿈을 안고 살아왔는데 졸업하니 웹개발자가 되어서 그걸로 밥먹고 살고 있습니다. node.js는 채수원님 덕에 올 봄에 접해서 같이 <b>개발자노트</b>(http://github.com/nforge/devnote)를 만들었습니다. 할 줄 아는 건 코딩밖에 없지만 잘 부탁드립니다.">
-            <img src="/2012/img/organizers/semtlnori.jpeg">
-            <span class="name">이응준</span>
-            <span class="nickname">(NHN)</span>
-            <span><a href="http://twitter.com/semtlnori" target="_blank">@semtlnori</a></span>
-          </div>
-          <div class="organizers" data-tooltip="새로운것에 관심이 많은 프론트앤드 개발자 입니다. node.js 는 javascript 를 사용할수 있다는 점이 맘에 들어서 개인적으로 살짝살짝 공부하고 있습니다.">
-            <img src="/2012/img/organizers/j2p.jpeg">
-            <span class="name">정재필</span>
-            <span class="nickname">(J2P / SMARTSTUDY)</span>
-            <span><a href="http://twitter.com/J2P_" target="_blank">@J2P_</a></span>
-          </div>
-          <div class="organizers" data-tooltip="뭐든지 작고 심플함을 추구하는 네이티브 앱 개발자 입니다. 회사에서는 자바로 여러 문제들을 해결하는데 시간을 쏟고 있으며, 최근에는 node.js와 python을 활용해 머릿속으로만 존재해 왔던 아이디어들을 세상밖으로 끄집어 내기위해 애쓰고 있습니다.">
-            <img src="/2012/img/organizers/chitacan.jpeg">
-            <span class="name">김경열</span>
-            <span class="nickname">(chitacan / ahnlab)</span>
-            <span><a href="http://twitter.com/chitacan" target="_blank">@chitacan</a></span>
-          </div>
-          <div class="organizers" data-tooltip="자신이 좋아하는 것에 무한 애정을 쏟으면서 최근에 Node.js에 무한 애정을 쏟고 있는 1인 입니다. 게임 회사인 네오플(국내 게임 회사 중 제일 좋아요 이건 인정)에서 개발자로 살아가고 있고 인생을 즐기고 있는 중 입니다.">
-            <img src="/2012/img/organizers/mrfoundation21.jpg">
-            <span class="name">김호연</span>
-            <span class="nickname">(네오플)</span>
-            <span><a href="http://twitter.com/mrfoundation21" target="_blank">@mrfoundation21</a></span>
-          </div>
-          <div class="organizers" data-tooltip="우연히 오프모임에서 연결되어서 작게나마 역활을 맞아볼까 합류했습니다. 비주류 개발 환경이지만 재미난 자리되었으면 합니다. ">
-            <img src="/2012/img/organizers/zziuni.jpeg">
-            <span class="name">변치훈</span>
-            <span class="nickname">(zziuni / NEXR)</span>
-            <span><a href="http://twitter.com/zziuni" target="_blank">@zziuni</a></span>
-          </div>
-          <div class="organizers" data-tooltip="전산을 전공한 후 서버 관리, 네트워크 관리, 프로그램 개발 등의 업무를 구분 없이 해오다 그마저 개발에서 손을 놓게 된... 그래도 '프로그래머'라고 불리고 싶은... 전산인입니다. 1년여 전부터 Node.js와 Hybrid App 개발에 꾸준히 관심을 가지고 있습니다. 느리더라도 멀리 가고 싶습니다.">
-            <img src="/2012/img/organizers/juhoi.jpg">
-            <span class="name">김주회</span>
-            <span class="nickname">(juhoi / 사이버한국외대)</span>
-            <span><a href="http://twitter.com/ByJuhoi" target="_blank">@ByJuhoi</a></span>
-          </div>
-          <div class="organizers" data-tooltip="프론트엔드보다 백엔드에 더 관심이 많고 현재는 하둡에 관심이 많아서 관련 업체에서 근무 중인 개발자입니다. NodeJS는 무엇보다도 다른 언어보다 높은 생산성을 요하는 프로토타이핑이나 파서제작용으로 사용하고 있습니다.">
-            <img src="/2012/img/organizers/geekdani.jpeg">
-            <span class="name">김대근</span>
-            <span class="nickname">(NexR)</span>
-            <span><a href="http://twitter.com/GeekDani" target="_blank">@GeekDani</a></span>
-          </div>
-          <div class="organizers" data-tooltip="개발자를 꿈꾸는 일반인입니다!!!">
-            <img src="/2012/img/organizers/pod.jpg">
-            <span class="name">박수철</span>
-            <span class="nickname">(POD / Spoqa)</span>
-            <span><a href="http://twitter.com/masterguru9" target="_blank">@masterguru9</a></span>
-          </div>
-          <div class="organizers" data-tooltip="새로운 것이나 도전적인 것을 좋아하고 항상 즐겁게 코딩을 하려고 하는 프로그래머입니다. 아는 내용을 공유하는 데도 많은 즐거움을 느껴서 블로그(http://blog.outsider.ne.kr)도 운영하고 있습니다.">
-            <img src="/2012/img/organizers/outsideris.jpeg">
-            <span class="name">변정훈</span>
-            <span class="nickname">(Outsider / NBP)</span>
-            <span><a href="http://twitter.com/outsideris" target="_blank">@outsideris</a></span>
-          </div>
-        </div>
+        
 
         <script type="text/html" id="_profile-contents">
-        Speaker.show({<br>
-        &nbsp;&nbsp;"name": "{{name}}",<br>
-        &nbsp;&nbsp;"session": "{{session}}"<br>
-        });<br><br>
+        Speaker.show({</br>
+          "name": "{{name}}",</br>
+          "session": "{{session}}"</br>
+        });</br></br>
 
         {{{contents}}}
         </script>
         <script type="text/html" id="profile-contents">
         <img src="http://placehold.it/200x200" width="190" height="190" align="left">
-        {{name}} / {{company}}<br>
-        <a href="http://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a><br>
-        {{session}}<hr>
+        {{name}} / {{company}}</br>
+        <a href="http://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a></br>
+        {{session}}</br><hr>
         {{{contents}}}
         </script>
 
@@ -315,7 +350,7 @@
         <script src="js/jquery.jtweetsanywhere-1.3.1.js"></script>
         <script src="js/jquery.qtip.min.js"></script>
         <script src="js/mustache.js"></script>
-        <script src="js/main.js?20121115"></script>
+        <script src="js/thankyou.js?20121115"></script>
 
         <!--
         <script src="js/socket.io.js"></script>
@@ -338,5 +373,6 @@
            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
            })();</script>
+   
     </body>
 </html>

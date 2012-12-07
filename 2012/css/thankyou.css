@@ -1080,10 +1080,10 @@ organizers
     width: 190px !important;
     position: absolute !important;
     left: 0 !important;
-    top: 550px !important;
+    top: 500px !important;
     background-color: rgba(190,190,190,0.2); !important;
     display: block;
-    height: 82% !important;
+    height: 83% !important;
     margin: 0 !important;
   }
   .sponsor::after {
