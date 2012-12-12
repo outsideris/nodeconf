@@ -11,9 +11,6 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
-    /*background-color: #E6E6E6;*/
     background-image: url(/2012/img/paper-background.jpg);
     color: #808080;
 }
@@ -330,6 +327,13 @@ link
  * snsbar
  *------------------------*/
 
+.snsbar .contents b{
+  color:#8EC63F;
+}
+
+.snsbar .contents h4{
+  color: #476E1D;
+}
 .snsbar .jta-tweet-user-screen-name-link {
   
   font-weight: bold;
