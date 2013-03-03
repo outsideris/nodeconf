@@ -79,9 +79,11 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 12px/18px 'Source Code Pro','NanumGothic','Century Gothic',Verdana, Arial;
+    font: 12px 'Source Code Pro','NanumGothic','Century Gothic',Verdana, Arial;
     letter-spacing: 0px;
     word-spacing: 2px;
+    line-height: 22px;
+    text-rendering: auto;
     -webkit-text-shadow: 0 0 1px rgba(0,0,0,0.3);
     -moz-text-shadow: 0 0 1px rgba(0,0,0,0.3);
     -ms-text-shadow: 0 0 1px rgba(0,0,0,0.3);
